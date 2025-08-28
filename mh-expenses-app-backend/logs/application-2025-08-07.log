@@ -1,0 +1,257 @@
+2025-08-07 19:22:43 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-08-07 19:24:11 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-08-07 19:34:00 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-08-07 19:34:00 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-08-07 19:35:57 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-08-07 19:35:57 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-08-07 19:36:24 [HTTP]: POST /api/v1/auth/register [32m201[0m 68.281ms {"name":"Marcel Hess","email":"marcel.hess.ch@outlook.com","password":"[REDACTED]","role":"admin"} {
+  "service": "expense-tracker"
+}
+2025-08-07 19:36:59 [HTTP]: POST /api/v1/auth/login [32m200[0m 82.404ms {"email":"marcel.hess.ch@outlook.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-08-07 19:36:59 [HTTP]: GET /api/v1/settings [32m200[0m 11.072ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:36:59 [HTTP]: GET /api/v1/settings [32m304[0m 8.243ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:37:00 [HTTP]: GET /api/v1/analytics/dashboard [32m200[0m 91.164ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:37:00 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 14.126ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [HTTP]: GET /api/v1/settings [32m304[0m 15.370ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of cateringAllowance",
+  "path": "/api/v1/settings/key/cateringAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of cateringAllowance\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [HTTP]: GET /api/v1/settings/key/cateringAllowance [33m404[0m 14.586ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [HTTP]: GET /api/v1/settings/key/costPerKilometer [33m404[0m 13.941ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of accommodationAllowance",
+  "path": "/api/v1/settings/key/accommodationAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of accommodationAllowance\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [HTTP]: GET /api/v1/settings/key/accommodationAllowance [33m404[0m 12.427ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [HTTP]: GET /api/v1/settings [32m304[0m 14.970ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of cateringAllowance",
+  "path": "/api/v1/settings/key/cateringAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of cateringAllowance\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [HTTP]: GET /api/v1/settings/key/cateringAllowance [33m404[0m 13.356ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [HTTP]: GET /api/v1/settings/key/costPerKilometer [33m404[0m 13.121ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of accommodationAllowance",
+  "path": "/api/v1/settings/key/accommodationAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of accommodationAllowance\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [HTTP]: GET /api/v1/settings/key/accommodationAllowance [33m404[0m 13.243ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:11 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 24.863ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:11 [HTTP]: GET /api/v1/analytics/dashboard [32m304[0m 14.607ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:48 [HTTP]: GET /api/v1/categories [32m200[0m 10.114ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:48 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m200[0m 9.181ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:48 [HTTP]: GET /api/v1/categories [32m304[0m 7.972ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:48 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 7.753ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:48 [HTTP]: GET /api/v1/categories [32m304[0m 5.388ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:03 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:03 [HTTP]: GET /api/v1/settings/key/costPerKilometer [33m404[0m 5.050ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:03 [HTTP]: GET /api/v1/categories?isActive=true [32m200[0m 8.848ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:03 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:03 [HTTP]: GET /api/v1/settings/key/costPerKilometer [33m404[0m 8.159ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:03 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 4.988ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:10 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Zu [32m200[0m 141.579ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:10 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Zurich [32m200[0m 73.560ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:12 [HTTP]: GET /api/v1/maps/places/details/ChIJGaK-SZcLkEcRA9wf5_GNbuY [32m200[0m 137.713ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:12 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Z%C3%BCrich,+Switzerland [32m200[0m 72.008ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:23 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Chur [32m200[0m 70.566ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:25 [HTTP]: GET /api/v1/maps/places/details/ChIJVVv3inbHhEcRMB8B16Z4Tys [32m200[0m 100.618ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:25 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Chur,+Switzerland [32m200[0m 52.659ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:38 [HTTP]: POST /api/v1/maps/distance [32m200[0m 488.269ms {"originPlaceId":"ChIJGaK-SZcLkEcRA9wf5_GNbuY","destinationPlaceId":"ChIJVVv3inbHhEcRMB8B16Z4Tys"} {
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:57 [HTTP]: POST /api/v1/expenses [32m201[0m 10.318ms {"category":"6894e3fd70028da2aef7a690","journeyDate":"2025-08-06","startingPoint":"Zürich, Switzerland","destinationPoint":"Chur, Switzerland","startingPointPlaceId":"ChIJGaK-SZcLkEcRA9wf5_GNbuY","destinationPointPlaceId":"ChIJVVv3inbHhEcRMB8B16Z4Tys","waypoints":[],"optimizeWaypoints":false,"distance":119.536,"costPerKm":0.7,"totalCost":83.67519999999999,"notes":"","routeSnapshot":{"distanceText":"120 km","distanceValue":119.536,"durationText":"1 hour 19 mins","durationValue":4758,"origin":{"placeId":"ChIJGaK-SZcLkEcRA9wf5_GNbuY","name":"Zürich","formattedAddress":"Zürich, Switzerland","location":{"lat":47.3768866,"lng":8.541694}},"destination":{"placeId":"ChIJVVv3inbHhEcRMB8B16Z4Tys","name":"Chur","formattedAddress":"Chur, Switzerland","location":{"lat":46.8507835,"lng":9.5319859}},"route":{"overview_polyline":{"points":"shd`Hqhcs@]q@OrAGzGwB~M`IxH|CxFbF`FvGzDjEfE`EnB|FtGvBrCVzAsB|KEtCxCvFlIfHtGrA`NFl`@sGzO}ArO}A|GZxCxAlElFbLfQbG|DtHe@dJuHfMaF~Ho@fPkD~JmGrLmNbQiO|M_G~[}JjMwHfJyIvOwQfLcJvM}Gr^oQjRqJp_@eKb^_E|McFxDmCdQgTjSwWdU{Qhc@ab@v`@iZ|TkQvSqTnUg\\lp@}iAdwAy}BpJ}QjFiO`EmSxEss@~Beo@dBcRbJwb@lI_SzTq]dTsc@dJePnRmWfZuWnGqEbN_OxHaP~Jwi@bIyc@~Nsd@xCiHrCyNjCmc@bCqX~RadA~Cwd@a@aNkCeUuJgb@aHul@wAme@~@eT~DkTpCkc@w@sYuDqb@qK_s@gKwk@_Hya@]k[xAiQtE{Q~JqPvNsP|IeMdEiLnCqRtB}^fDmf@jEc[hJsa@rEyZbBk^IiVy@_KuEkOaIwJuRcO}GoIcKsSyGyXmBaTIiU|@gQrH}b@nJgZzDgT|Ie}@pSkpAfTe{@~CcXz@}VaDelB_CqtAfAeh@bBiVbHih@vJib@bNi_@lZwi@xhB{qCtg@qw@bUk]jSiVdI{GnPaLrQwO`KaMrOuXxHkWpBaTDmx@v@at@bCuw@zD}e@h@}a@hEcj@jR}jArLiyAhFsk@hLe{@|Zq`BfDcT`AcTe@iSqB_PmI{ZaA{OpE_{@~E}ZbFoUbCcZNyQgAy\\b@c[Ume@vB}]nAgHlDoPjAuIlAe[IuGw@qPgCqQsH_PsHsKyDgMgAqOd@mNpEwWdJse@`A{]Tw[zBoc@@yN}AqRiGaS}E_JqHmTyCmZv@}p@cDmh@oAsVxAs\\tHoZtLkR~DqDpWkLnOkIvVqYvIeIrIoElTuLjD_Dp`@wh@vv@}fAx]kg@jSu^xMs[v[s|@xh@ezAvI{^dB{ThIg\\tIeNfKcIbWiRzOmS~JcWxEeVvB_[_@ms@|BoRrDaL|I}L|ScTvHeM`mA{`C|Loa@jB}M|Cok@bD_SxD{KpHuL|VeRl]_UhV_TnNuOvYq]ve@mm@t[qa@pPkSdO}MjOaI|EoAjNeApKj@xMtC|x@lYfRpFdUrArKOjPw@tIoBfOgJ|Ykc@|QcZ~PaMxQyGza@WdYxDzKxCjNrJlPxWxMnUvK|LbEtCjTfMb^vSvVzKf]hLvW`P|LrDhHx@hFlBtE`@rH}AbR]xC\\zDe@tTF~AYlGmCbH@dKdC`MTjZwBtRzCPGvDz@|BzI?fFyBvL\\JX{DvAyM"},"bounds":{"northeast":{"lat":47.3777706,"lng":9.5621312},"southwest":{"lat":46.8507808,"lng":8.5193306}},"legs":[{"distance":{"text":"120 km","value":119536},"duration":{"text":"1 hour 19 mins","value":4759},"end_address":"Chur, Switzerland","end_location":{"lat":46.8507808,"lng":9.5319722},"start_address":"Zürich, Switzerland","start_location":{"lat":47.3768985,"lng":8.541690899999999},"steps":[{"distance":{"text":"31 m","value":31},"duration":{"text":"1 min","value":9},"end_location":{"lat":47.3770823,"lng":8.541946099999999},"html_instructions":"Head <b>east</b> on <b>Bahnhofquai</b> toward <b>Bahnhofpassage</b>/<wbr/><b>Bahnhofplatz</b>","polyline":{"points":"shd`Hqhcs@?ECMAGEICCCCEACAEA"},"start_location":{"lat":47.3768985,"lng":8.541690899999999},"travel_mode":"DRIVING"},{"distance":{"text":"0.3 km","value":343},"duration":{"text":"1 min","value":81},"end_location":{"lat":47.37773259999999,"lng":8.5376364},"html_instructions":"Turn <b>left</b> onto <b>Bahnhofpassage</b>/<wbr/><b>Bahnhofplatz</b>","maneuver":"turn-left","polyline":{"points":"wid`Hejcs@EXAT?JAF?F?F?@?H?N?`@@VBzA?L?J?@?LANALABAHAJCF?@If@GXG^I\\?DCLGTAHADADAFCRCBId@?BA@E\\CLIb@CLMx@CHABAJCJ?D?B@B@B@BFJ"},"start_location":{"lat":47.3770823,"lng":8.541946099999999},"travel_mode":"DRIVING"},{"distance":{"text":"0.6 km","value":638},"duration":{"text":"2 mins","value":101},"end_location":{"lat":47.3730713,"lng":8.5329833},"html_instructions":"Continue onto <b>Gessnerallee</b>","polyline":{"points":"ymd`Hgobs@X\\DD`BjB^b@BDDBTJB?\\N|@h@FFBBBDBDBPBHLp@@LV^T\\x@fA`@h@VVz@z@JJFHz@x@NNPN\\\\VTNNNLRN@@DDLHB@FBFBFBj@Tb@PXL"},"start_location":{"lat":47.37773259999999,"lng":8.5376364},"travel_mode":"DRIVING"},{"distance":{"text":"0.3 km","value":266},"duration":{"text":"1 min","value":55},"end_location":{"lat":47.3709892,"lng":8.5313319},"html_instructions":"Continue onto <b>Selnaustrasse</b> (signs for <b>Enge</b>/<wbr/><b>Wiedikon</b>)","polyline":{"points":"upc`Hcras@f@ZFDTPB@d@`@FDFFHFHHFFHH@@DDHJDDBBX^^`@NNJJFFFFBBFBDDJDHDJBXFTDRF"},"start_location":{"lat":47.3730713,"lng":8.5329833},"travel_mode":"DRIVING"},{"distance":{"text":"0.3 km","value":315},"duration":{"text":"1 min","value":60},"end_location":{"lat":47.36872049999999,"lng":8.5288629},"html_instructions":"Continue onto <b>Sihlhölzlistrasse</b>","polyline":{"points":"ucc`Hygas@JBHDFDFDB@BBBBDBFHTTTVb@b@HHNPFHHHZ`@d@l@\\d@RXHJV\\NTNPPVLJ@BBBBBHH@BLJNP"},"start_location":{"lat":47.3709892,"lng":8.5313319},"travel_mode":"DRIVING"},{"distance":{"text":"0.2 km","value":244},"duration":{"text":"1 min","value":65},"end_location":{"lat":47.3695005,"lng":8.5259352},"html_instructions":"Turn <b>right</b> onto <b>Sihlhölzlibrücke</b>/<wbr/><b>Route 3</b><div style=\"font-size:0.9em\">Continue to follow Route 3</div>","maneuver":"turn-right","polyline":{"points":"oub`Hkx`s@QZGJYh@Ud@ENCHABEVSlB]hDG`@CTALAD?J?P@V"},"start_location":{"lat":47.36872049999999,"lng":8.5288629},"travel_mode":"DRIVING"},{"distance":{"text":"0.1 km","value":119},"duration":{"text":"1 min","value":22},"end_location":{"lat":47.3688243,"lng":8.5247134},"html_instructions":"Continue onto <b>Manessestrasse</b>/<wbr/><b>Route 4</b>","polyline":{"points":"kzb`Hcf`s@FRHVFLJVFLDJJV@@N\\HPLX@B@@@BLPHH"},"start_location":{"lat":47.3695005,"lng":8.5259352},"travel_mode":"DRIVING"},{"distance":{"text":"1.6 km","value":1568},"duration":{"text":"1 min","value":84},"end_location":{"lat":47.35517489999999,"lng":8.524510600000001},"html_instructions":"Keep <b>left</b> to continue on <b>A3W</b>, follow signs for <b>A3</b><div style=\"font-size:0.9em\">Toll road</div>","maneuver":"keep-left","polyline":{"points":"cvb`Hm~_s@XTXXd@d@LL?@p@n@VZLJh@d@BBLJ^XHD^TLFPJ@?`@PPHHBJDD@F@LDD@LBJBRDLBN@XD^Bb@B\\@DAJ@L?\\@d@?\\?R@n@?X@R?D?fA@`B?V?FAH?@?vAIRADAZCXCHAf@GNCHANALCVC`AOPCh@Iv@Mf@Kz@OTGTEHAHCb@KnAY\\KpA[fAWn@O`AQt@OJAHCZEp@Kd@Ed@Gj@E\\Ct@El@Gt@Ev@GD?HAH?"},"start_location":{"lat":47.3688243,"lng":8.5247134},"travel_mode":"DRIVING"},{"distance":{"text":"1.0 km","value":967},"duration":{"text":"1 min","value":45},"end_location":{"lat":47.3475208,"lng":8.5207278},"html_instructions":"Keep <b>left</b> to stay on <b>A3W</b><div style=\"font-size:0.9em\">Toll road</div>","maneuver":"keep-left","polyline":{"points":"y```He}_s@lCW`CUZCb@E^E`@En@IpAO`@Cd@C`@@\\@X@XBn@Hp@NRFPF^NZP^TRL@@@@ZV@@ZXVVTX\\f@\\^h@~@b@r@JPFJHNDHJVBBhAfBNTFHrBbDp@x@"},"start_location":{"lat":47.35517489999999,"lng":8.524510600000001},"travel_mode":"DRIVING"},{"distance":{"text":"0.8 km","value":797},"duration":{"text":"1 min","value":36},"end_location":{"lat":47.3410674,"lng":8.521913399999999},"html_instructions":"Continue straight to stay on <b>A3W</b><div style=\"font-size:0.9em\">Toll road</div>","maneuver":"straight","polyline":{"points":"_q~_Hqe_s@RXJNTZLR@?PTVVTVNNNLDBRPB@@@@@^RPHTHXJ\\H^FLBP@L@P?L?P?J?LAPAb@GTCNEPGZMPILELGFEJG?A\\UFEFGPMz@u@FGr@q@dAaAJM`@[HIBA`@[t@e@DE\\Ql@[j@WNGHCRG\\C"},"start_location":{"lat":47.3475208,"lng":8.5207278},"travel_mode":"DRIVING"},{"distance":{"text":"89.4 km","value":89417},"duration":{"text":"50 mins","value":3028},"end_location":{"lat":47.0324469,"lng":9.4675587},"html_instructions":"Continue onto <b>A3</b><div style=\"font-size:0.9em\">Toll road</div>","polyline":{"points":"uh}_H}l_s@j@Qj@OLEb@IVGn@IPCJArAKhAGz@GTC@?RCvBS|@O`AQ~@SNExAc@pBs@LGdBs@p@]ROf@]tAcAZWj@i@hAmARSVYd@e@hAwA`CaDp@u@X[FILOXYxBcCJKRQ\\[\\[l@i@b@a@n@g@BClA}@DAl@a@t@a@NIPKNKNIb@U~@e@BATKRInAi@f@SXK@?\\MTI`A]`A[^K|@WVIx@UbAW`@O\\I|@WxAa@~Ae@~@Y|@YvBy@n@WJEp@[d@UXMrBkAnCeBh@c@b@[FEFG`@[\\Yj@g@fAaAZ[dBiBh@k@FIPULOx@cAPSZa@`@g@Z_@@AFINQ~@kAtA_BvA{ALKr@s@bA_ABE~@w@fA}@bAw@fAw@LI|@m@n@a@n@a@dAm@nAo@dAg@v@_@n@Yr@YHEXMBA|B{@VMz@[\\OpCoAjAi@hAk@zBiA`B_AtA{@TM`Am@f@[XOVQZQbAm@JEd@YbAi@XOl@Yr@_@p@[r@[fAe@PITKPGNIvBy@rAe@JCh@Sx@WtBo@z@UdAYt@S`@I|Bg@v@Q^Ix@MdB[z@M~BY|@IFAh@GdAIfAKZC~@IZC`@E~@IZC|C]dBYn@O|@Qb@Mh@OnAa@fAa@t@_@pBeAPI@ADCDCVORMhAw@f@a@LKp@m@JIl@k@^a@TUTWNQr@{@bBsBn@}@NU@?Zc@jBqCT]DIlCaEtByCfB_C|AoBtA{AZ]XYt@w@jBeBlC}BpCuBvAeAt@k@z@o@z@q@r@m@zAoALMDEFEfBaBp@m@pBmBrIuI\\]PSPQhDaDfAeANOt@s@v@s@j@i@f@c@t@o@t@o@`@]VSDEVSf@a@\\YHG|AkAdFwDlJqGNKLItA_AzAiAhCkBpBaBhB}AVS\\YnBgB`EwDjEsEZ]\\_@rA{ARUPStAaBvBmCj@s@BEjA{A\\e@V_@BCBCxAuBj@y@Xc@@AT[p@cAdC_El@_A`J}OvBaE\\o@BGHKx@aBxAmCjG}KnAwBnAsBXe@Xc@~ByDXc@zFkJ\\k@`GsJJOBELUvNoU`DiFtEqHT_@`AaB|BqDXe@p@iAdC}DNUvHcMhBuCVc@Va@Va@JQdAeBnLiRr@iABET_@BE^o@RY^m@NWLWLSl@aAP]NUJOnBsD~@kBh@gAz@oBx@oBd@mA^aARm@Ne@ZcAh@gB@IRw@Le@Lk@H]VqADMNq@ZaB@ELo@Hg@BK?ELw@F]Hk@TaBR}AP{AHu@N_BHs@@SBYXqDToDPsDD}@HoBH}BBw@ReG@S?MZcLNiFDeABeAHmB@_@JmCHcBJkBLeC@QBS?GDi@Ba@LkBLmAXaDFk@De@LgANkAFe@XwBr@qETgAd@aCj@iCfAgE|AkF~AoELY@CNa@Vq@rAyCp@sAn@oAnA_CfAgBbA_B~A{BpEwGvAyBbA_BP[Xi@p@oAh@aAFK~@mB~@iBJWDILYzAcDvA{Cp@aBpAmCx@aB@CRa@BGP_@^q@`@u@bAmBp@gAbAgBrAwBlB{ChA}AbAyAbAsAj@w@nCkDdAmAl@s@~@_ALMBENQRSbAcApBoBnAiAl@g@TSp@k@n@i@l@g@fA{@nB}A~AiA~EkDTOFGPM|BiBhCeCzBoC~A_CXc@fAkBLURa@j@kAl@qAb@eAv@uBfAkDH[HYPk@Lk@BKn@mCF[f@_D`@iCd@}CFa@BQD]x@sGJy@PuA^cCT}AV}AHa@Fc@ToA?AF]TmAH_@Jk@b@{Bb@oBTgAh@_CVaAfA_EH]@EBI~AqF~@sC`@iAJ]J]Tk@`@gA`AoCl@{ALWp@iBNc@Xu@BGVg@T_@DIDK\\kAR{@t@}DF[@GJc@Fg@LcAHe@BWDa@LkANcBJ}AJkB?ARwDJqCBk@?ABg@NmD@QFqALyBDu@B_@Dg@HcAJgAHgABSBWHo@H}@@KBKHu@Hw@NeANoAPeANiADS@KPcARiAZoBx@cEVmAZwAz@iDp@yC`@cBLm@DI@GLi@Lk@Je@BI`@mB@GBM`@oBn@kD@GDWDUZqBVaBFa@p@oFDa@PcBJcAJeADe@?C@GJ{AJwAFcADgAFyABeA@eA@_B?K?q@AcAEmAAq@Cm@I_BIqAKyAKkASwBMiAKy@UcBU_BY_BUkAWqASy@Qu@YkAYiAy@{Ce@eBa@aBGUAEMi@]{AOs@Kc@YeBQiAQuAUgCYiEOeBU}B[uB[mB]{BQ}@M}@YuBAGMgAC[Ca@COCc@Eq@E{@MgCQoF?CAc@C}@EiAAy@Cm@EqBAg@EiCCwB?yA@uAByADoAJwAFeAJmAR_B`@cCJm@PcAv@oDBM^kBZiBFa@Fa@TwAHm@D[Fg@J_AH}@N}ALkBBYBe@@YH}AHsCDwBBsCAaBAyBCaBGwBQiEIwA?OKkBQ_Dg@uG_@{EMaBCQE_@KcAw@gGs@_FIg@Kq@e@kCg@oCq@sDg@oCOcAU}AWeB]iCUkBScBIm@Go@Ge@K_Ag@eEi@sDGg@]qBMs@O{@G]Ke@q@kDi@_C_@_BSaAOm@m@gCCKAIs@}CI]AGAII]YuAi@eCAIc@cC_@_C]gCW{BKiAAUCU?GAGAQCg@AKAKMmBEqAEgBC}A?qA?k@@gB@gADmA@g@Bw@HsAHyAB]NoBLqAVkBFWTsAb@yBPy@VeARs@Tw@d@yA`@gA`@cAd@cA`AoBXe@dAaBhAwAt@aATW|HeJf@k@\\a@`@e@d@i@^c@JKLOV[h@o@l@s@j@q@bB_Cb@{@j@gAb@_ARg@Rg@BETk@^eA`@oA\\qARy@TcA`@eC@IT_BNwAX}C@MPqCb@oHJkBTsDJ{BDy@Dq@Ds@FeADu@NkCVgEDi@B]Dw@PkCVmDPyBDc@B]BYHy@Fo@Dc@Fo@B[Fi@Dc@Jy@Dg@Fi@Ho@L{@Hs@NkAPgAZmBDUBSl@qCxAmHj@aCz@kDJc@No@j@}Bx@mDd@wBh@eCrAyHDW@ID[ToBNwA`@sDPyBD[BYLiBV{DRmFFwDDoBB}B@{A?wCA{@A}AEcCEsA?EGwACk@Gu@Go@CWQyACQCQQ_Aw@iDs@yBAEEOEKw@kBQYU_@Wa@k@aA]e@MOOOm@u@}BwBeJ}G{EqDYYYYoByB{@eAo@y@aAuAyA_Ca@w@[e@m@mAcAsBe@iAg@kAk@}AUq@Ws@a@qA}@}CU}@m@uC[{Ak@sDM}@Iq@AEUoBWiCMcBQiCEcAGmBGyBAoB?_@?s@?Y@sCDoBBu@Be@?GD_AFeBLqBJ}ALmBPmBTeBVqBn@eEb@gCh@gCh@eCjA{Ev@qCv@kC`@oA`AuCbB_Fb@sAL_@DOLg@\\mAZmAd@cC^_CPsAPoAH{@NcBLgBBYBWDw@p@mIDi@B[H{@\\iD\\iD`@wDj@yEb@kDl@cFNiANiABWVkBlBgND[RuAl@uDVeBn@eEd@sC^yBVwAx@wEr@yDbCsMVuAVmAj@iCd@uB\\sA^wAl@uBrBeH`AeDx@uCt@uCd@oB@A`AgEd@eCFWReAZoBNcAZyBHk@J}@\\{CR}BNqB?KFw@NcCJwCHoBBwABgADmC?uA@eC?iDC_DAcBGkEC{AEgCMiFUqJQiHOeH[kNMgFMoFM{Fy@o]EaB_@wNCu@Am@Aq@KuECaB?ICcAAyACcE?wD?cA@_@?q@@eCD{FH{FFkC@i@LkDN{DLiCPaDLoBFcAL}AHoAN_BJmAFw@J_AVmCHu@NwAJw@Hw@d@sDFc@D_@DQFi@`@iCZwB`@eCBKh@uCDYj@wCj@qC\\}AlAmFh@uBb@iB~AyFfAeDbAeDr@sBlAiD|A}DvAgDTi@HOLYTg@Ti@Vg@BI~CoGfAsBVg@Xe@tAgCpAyB`@o@rBeDr@iAz@uAnAoB`I}L|IeNbA}Af@w@`CqDfBqCbCwD|BoD~BmD~C}E|AcCdCyDPWFKbBkCnCeEnByCnB{CxA}BdA_BXe@NUHMb@o@tBcDvBgDhEwG~AeCbA}AjDoFn@cA^k@d@s@NUv@oAd@u@l@}@dAaBZe@Va@PYfAaBXc@T]T]Zi@LQj@{@T_@RYl@}@tAyB|@sAx@qAdAcBh@y@bBkCNShAgBt@iALU^i@f@w@BEHMHK`@o@z@qA`@k@hAeBzA}Bb@q@|AaCxA{B|@wA^k@Zc@PYFIXc@j@y@hA_Bv@gApCmDbBoBrAwAjAmAfAcAhAgAhAcAbAy@NK\\WXUDC^WXUd@[VSXQb@[d@]TOTOLKn@c@|ByANKd@[j@]BAd@]^YBAJIbE}CbB}A|AuAdCeCVYVYZ]\\]p@y@hB}BhB_Cf@q@@AjAeBDGXc@Xc@j@}@\\m@l@cAj@aAh@eATa@j@eAd@aAf@gAVi@JUJU`@{@Rg@Pc@Re@b@qARi@Ng@J_@Rm@\\sAh@yBFSDUJi@Hg@Ha@BKDWBOHo@L{@D]Fm@Fo@N{AB_@BO@OHgADq@Bi@FeAB_A@KBo@DaCDcD@aC?yACsCCkCEeEAOCyG?yB?sD@wA?Y@kA@yA@uA?q@BqA@wAByBFuDDuEDcCB{BDoDDaC@uA@g@?S@qAFeE?[JwGDgCHoDHwCJmC@MFuAHcBFqADw@PcCJ}AFw@Dk@R_CJcA@SVcCNyANsAPiBNyAN_BB_@B_@HwADq@H{AF}A?CDyABo@@o@B}ABuA@o@BmB?o@BsB@sB?OBkBBmB@iA?ABe@BwAFkB@[BYBaAFkALmB?AHkAF}@BUB]BU@UDc@Dc@De@@C@QBW@CD_@LiAFo@DYNmANeAJw@F]F]`@iCJo@XeBToAPiAReARiAF_@ToAFc@Hc@F_@DSDUf@kDhAwGLq@DWl@kDd@uCBQToALo@PaATqAT}ALw@Jq@d@eDBYJs@h@kE@CLqAJmADm@Du@PyC@MPmCNaCNaC@KJ{ADg@LeBFy@^mE`@uEFs@Fm@Hw@Hq@^uDXgCDc@?CJ{AH_BDm@@Ih@mHBSHcA^mE@GFo@@Ob@kGDm@@M^wD\\qDLoAl@qFBUDW?ABUBQ@GvAiMbAuIRuAbAgHBUHk@T}AHc@~@cGDURsA@E@Gb@mCRsA@?BUnAgHf@gC@GJe@rAcH@AJm@@AJm@Je@@KLo@`@sBtBwKDSF[RgAf@gCZ_BRcAHc@hC_N?C@CLo@t@yDt@uDf@kCF[X_Bn@qDVeBVcBJq@@C\\kC@EFs@TgCJwAJoBDwAB_B@s@?s@@o@Ay@A}DI{BEmAImAGs@AUScCEa@AEAK_@uCIw@Kk@]mBm@aCOm@Mg@AGK_@W{@c@yAc@{AiAsD]qAMk@I[CIGWAIEOCQCOG[Im@Gc@Ec@KeA?AAUCg@E}@?QAs@?q@?U?U@a@@u@?MBw@B{@Dg@HqAHcAFe@BUJsABQBQ?CTiBLyALqADe@H_AFcAFcABa@DkADu@HyDBaADsBDwABkA?GDo@D{@H{AJqAHeAFk@Da@Fe@D]@GF]BOHm@ReA\\{AVaAT{@j@sBl@yBFQh@kBPy@Ns@VsAf@mC`@gCl@mEp@aIHkADs@Du@Ds@Bu@Bs@Du@@_@?O@E?u@@S?[?I?MBcA?k@@gA?e@?c@?EAgBEkE?IEyA?ECq@?AC_AE{@Cc@IeB?ACe@GuAIyAEcACm@C{@AeA?W?M?y@?kA?[?KBcABcAPwEBk@HsB?K?M@SBsA?q@@yAAa@AcBE{AAy@CkBEkB?ACcBA_BA}@?iA?uB@u@@eBFsB?U@KBeALgCDw@HmA@UPoBNwA@GFg@Hs@Hk@F_@@KD[DQ@MDWBMDWBKDWBMFW@KFWBMDUDODUBMFU@KFWBEF]BMFUBMFUBMDSDODUBG?EFSBMFUBMDWDKDUBMFUBMDUBMDUBMDUBMDWBMFY@IDUBMDW@MDUBOBUBMBWBMFcA?Gl@mGPmCFeDBuB@sA?eA?k@Ae@?g@Ai@?g@Ag@Ag@?QASA_@?GAi@AAAe@Ag@Cg@Cg@Cg@Ci@Ci@Ce@Eg@Cg@Ee@Eg@Eg@Ee@Ee@Ee@Gk@Ea@Ge@Ig@Gg@Ie@Ie@I_@AKIa@Oq@Mg@ESK[K_@GQGSQg@Qe@Wo@MYO[m@kA[g@e@u@S[EEa@i@UYUYUYSWUYW[OQGISYSWQWU_@S[Q[S_@MYUe@O[Oa@O]k@kB[mAUaAUiAKq@G[MmAIq@CUKcBGcBCeB?I?aBDkBDuADc@De@D_AFu@N}APmABQ^cCVaB`@qB^iBp@wCdAiEVkA\\yAJa@Jc@Jc@Jg@^eBTkAX{ARgABMJm@j@eETkBBMB[PcBL}A@MJgBFsAJwFC{HAaE?A?cE@aCBqBFoC@UFuBJuB@U?EJ_BHeAb@mHL_CDs@@Q@U?KDs@D}@Bk@JcDBqA@_A@gD?U?A?KAg@CsBCgAEuAKkBS_CCOQ}A]yBk@qC]uAa@{Aw@_CEIo@}Ao@uAKUi@_AS_@Q]Q[c@w@s@sAWc@]s@c@}@O_@c@cAM]O_@Ma@M[M_@[cA[eAMg@K_@Kc@I]Kg@UiAOy@AKIc@G_@Ge@QqAMiAEc@MkACe@Ei@KgBIuBAWAa@Ac@AqAAqB@i@@uADeCJmDBu@?ELiEH}CDiBFcD?a@?_@AmDGsEAg@?AAYGqBQgDMcBEw@SqBO_BI}@a@{DEg@OwACO?CKeAK_AC]C[IaAGiA?EAMEq@ACGsACmACw@?G?_@C{A?aCDyDLyC@k@NaC?GZkDV{BRwAXaBRmATgA|@sDbAiDpAmDHSx@mBx@_BHObBsCd@q@zAmBt@}@Z[Z]@?`A_ANOFE^Y\\[HGxAcAlBkAl@[p@]rAm@nAe@hFcBzAi@tAi@bBs@l@Yz@g@`Ak@v@g@fAu@h@a@LKNMt@m@f@c@\\[\\]POn@s@p@u@~@eAzAqBvAmBhBeCbByBHKz@aAf@i@h@m@|@{@j@c@ROp@i@XQTODEFCbAk@b@WfAi@~@e@~@a@hDyA|CwAj@Y|@i@z@g@|@m@pB{ANMBCXUZWFGPQZY`@a@XWBEVWv@{@`AiAHKbAmAfB_CfCoDh@s@|DuFfCoDdBcCt@cAt@eAJONQhBiC|AwBjAaBfIiLvAsBbAsArEqGb@m@pJ{MNSNUjAaB`B{BfA_B~BcDn@}@lAcBJOhA}AT]hD{ERWXa@Zc@t@cAh@w@hA_Bj@{@tByCrB}Cz@sA`CyDhAiBd@y@b@u@^s@bAiBlEqIbAqBz@oBjAiCbB}Dh@kAv@uBXq@p@eB~@aC~@iCjAaDHYHUd@qAfB}ElBkFx@qB|CqIz@cC^cAFQRk@BGlAeDxAcEjAcDtAyDxAcE|BoGpAoDx@}B~AsE|BuGt@{BTk@nDcKvEuMZ}@Rk@Rk@|@cCfA_D`@mA\\eANi@HWHY\\oALi@ZsALq@Jk@VuARwAHk@PsA@Q?AD]\\sD^cGP{BFq@Fs@?Ab@uCnAcHHa@J_@`BoFXq@j@{AVm@f@eAh@gAv@sA^m@fCoDJMBARUh@k@p@s@FE\\Y\\Y~DiCf@_@j@a@\\W@AVQlH_FdF_EpAeAx@u@RSJIjAkAtB}Bd@o@f@i@jCcE~AgCTa@v@{An@qA@CVo@p@}Af@qAfA}CTy@BGDQBKDODKFWL]l@yB\\{AViAVmATwA\\cBR_BT{APoAN_BNmA`@uFR{DDoADm@BqA?a@DoE?sCC{CGyCE}@GsDCq@?MCs@IcK?}A@m@?C@s@@c@Bo@Dw@HaA@EHuAHk@@GD[@I@ID[Ly@Ny@DSRcAH]b@cBR{@\\iAFSJYJYJSp@{A^u@JQXc@FOx@oAj@u@fAsA`BgBnAmA`A{@~IsIp@s@"},"start_location":{"lat":47.3410674,"lng":8.521913399999999},"travel_mode":"DRIVING"},{"distance":{"text":"20.9 km","value":20925},"duration":{"text":"12 mins","value":696},"end_location":{"lat":46.8793782,"lng":9.5342786},"html_instructions":"Continue onto <b>A13</b><div style=\"font-size:0.9em\">Toll road</div>","polyline":{"points":"y_a~Ggcxx@^e@b@g@r@aA@Av@iABCT]@Al@}@bAcBr@qA|@cBbAkBrCuFTa@JSFKZm@|Vof@h[ym@Ve@pB{D|BqEFMHOxCmGZo@jAoClAyCx@wB`@iAbA{CbAkDhAqEZwAd@aCb@kCD[Jk@PsAJs@Fq@Hq@D]Fm@Hy@Dm@Fi@Do@Fy@Du@@SBUDm@?CD{@XoIPoFR{DV{CHw@?AH{@`@oCHq@@EHk@P{@TkAHYBMHa@@EDOJc@BIDODOV_Ap@sBb@iAL[FOh@qAFKTe@d@_AXm@j@_Al@}@n@_AhAwAlAqAfAcAVU@ANMb@_@bAw@rA}@nCgBPMPK\\Sn@c@dAo@b@YTO|@i@h@]LI\\STOp@a@~@m@rA{@tA{@HG@Al@c@bC{A`Ao@pBsAtCsBpCwBvEuDf@e@LIpAkAnAoAlBmBx@w@|@}@rBwBzAeB\\_@@AZ_@r@{@pB{BvAeBpAyA|AkBpCaDDEPSbBsBvAeBd@i@Za@`@e@TYZa@v@aAX[@CfBwBpAcBhAuAjBaCzBqCjB_Ct@aAlAaBjB_CxAmBzAoBvCuDNQBCHMb@k@~BwCtAiBZa@RU~@mAZa@TYfAsAnBgCFIfB}BNQZa@f@q@bBwB|@kAxAgB|AoBjAyArA}A~@kAz@cAn@u@l@u@hAiAdBcBNQLMDE~AyAzBiBtAeA~AiAXQ`BcApAm@HEv@a@nAg@jAc@z@Wb@Ml@QREJCNCREJCJCl@Kb@GNCLAPCJALCVC^El@Eb@CXCbBEz@?@?lA?jAFV?V@d@BpALlANj@Hh@Fn@Lr@Pn@LrAZrA\\fAZjDfApA`@v@XvCbAtHlCtDrAfBn@lDrALBHD`A\\XHVJnE~AlDtAbBj@JDlFhBf@PPDVFf@NtCr@|A\\dANpAR`BNpAJ`BHzCB|@B|@@rAAZAB?^AB?rBCrAEr@?r@ApGSbBK`CUx@MbBYhBg@lA_@vCqAfB_AtBwAf@c@JGHIHGhA_AlBwBbCuCfA{AlAqBlAgB`A_BvFyJlAmB|BaEVe@f@{@Xc@jAqBb@u@p@gABGJM^o@t@}@Xc@BGf@w@v@cABEx@}@~@}@v@u@TS@AROj@a@^W`@Wp@a@VM`By@\\QNITKTKz@_@HEBAHEzAu@l@]dAi@zAk@l@OfAU`@ENCDALAFAf@Ar@El@A`EE`ACh@AXAjCChACH?|@CfA?vBE|@BrAFXDnBXdALpBTVDPBv@J\\Fj@HZDN@JBhANvBZVBv@Lf@Hr@L|@P\\HXF@?dAXb@LdC~@`ClA`BbAdAt@@@xC`CFHTTFFRTTTp@t@hAzAjAdBp@fAdAfBhAbCDJPZFJPXFNTb@PXVd@Vf@v@tAvBhEb@p@fBdDvArBRXX`@FHtApBzBlC|DrDh@^r@l@zA~@HFTNh@\\d@ZfEbC`CrApBhAHF~BrApGrDpEjCh@\\VL^T`@T^TzIhFl@XzA~@RHxBhAnCnAvEfBpAd@d@Nd@NhKzCpFdBj@ThAd@bBt@jAd@z@d@pBdAdBjA~FxDd@X`An@`Al@xAv@z@^v@\\`AZv@X`ATr@Pp@Lf@Hl@Hd@DH@\\D@?~@LhBR@?d@D"},"start_location":{"lat":47.0324469,"lng":9.4675587},"travel_mode":"DRIVING"},{"distance":{"text":"0.4 km","value":415},"duration":{"text":"1 min","value":22},"end_location":{"lat":46.8757939,"lng":9.534064899999999},"html_instructions":"Take the exit toward <b>Chur - Nord</b>/<wbr/><b>Zentrum</b>/<wbr/><b>Arosa</b>","maneuver":"ramp-right","polyline":{"points":"ccc}Ggdey@JRh@HXDZJl@^VLPHTHZLd@JVDX@\\?RCXERCZKRIl@Wl@MhAMb@Gd@G"},"start_location":{"lat":46.8793782,"lng":9.5342786},"travel_mode":"DRIVING"},{"distance":{"text":"0.4 km","value":420},"duration":{"text":"1 min","value":38},"end_location":{"lat":46.8720219,"lng":9.534143499999999},"html_instructions":"Continue onto <b>Masanserstrasse</b>","polyline":{"points":"ulb}G{bey@HC|BSVAF?t@EB?@?FA^AzBAp@@H?F?nABf@@^?XBdABl@D"},"start_location":{"lat":46.8757939,"lng":9.534064899999999},"travel_mode":"DRIVING"},{"distance":{"text":"2.3 km","value":2319},"duration":{"text":"4 mins","value":268},"end_location":{"lat":46.8515745,"lng":9.5338941},"html_instructions":"At the roundabout, continue straight onto <b>Masanserstrasse</b>/<wbr/><b>Route 13</b>/<wbr/><b>Route 3</b>","maneuver":"roundabout-right","polyline":{"points":"cua}Gkcey@@@?@?@@??@@@@@@@@??@@?@?@@@?@?@?@?@?@A@A@A?A@??A?A@A?A?AfAKRGdAAh@?z@GpDJV?p@F^@~@@tA?p@Eh@Ip@?@@?@@?@@@??@@?@?@?@?@?@A@??A@?@Ab@EPCHATGXI`@Sh@[\\Sj@_@j@UZETCPAX?bB@bA@ZAH?VBPAJ@RDPDb@HjF~AN@F@j@HpADx@@`CFR@\\@`@?bA@Z?lACp@IxBWx@G~@IXAP?R@`AFXBV?\\ArA]hB_@h@E|@Ez@@r@Dl@Hh@Fx@JhAPfAN`@F`BVd@Fd@T?@?@@@?@@@?@@??@@@@@@@@?@@@?@?@?@?@A@?@A@??A@??A@??A@A?A@AP@N?LCf@Nn@H`@\\"},"start_location":{"lat":46.8720219,"lng":9.534143499999999},"travel_mode":"DRIVING"},{"distance":{"text":"0.2 km","value":203},"duration":{"text":"1 min","value":34},"end_location":{"lat":46.8506541,"lng":9.531663499999999},"html_instructions":"At the roundabout, continue straight onto <b>Grabenstrasse</b>/<wbr/><b>Route 3</b>","maneuver":"roundabout-right","polyline":{"points":"iu}|Gyaey@@B@B?@B@@@B@@@D@Z^ZjBBNXvAZ`BJXb@x@"},"start_location":{"lat":46.8515745,"lng":9.5338941},"travel_mode":"DRIVING"},{"distance":{"text":"0.2 km","value":227},"duration":{"text":"1 min","value":36},"end_location":{"lat":46.8514012,"lng":9.528904899999999},"html_instructions":"Turn <b>right</b> onto <b>Gäuggelistrasse</b>","maneuver":"turn-right","polyline":{"points":"qo}|G{sdy@EDABABABUlAMr@Ox@UxAUvAEZKx@EHGb@Ib@"},"start_location":{"lat":46.8506541,"lng":9.531663499999999},"travel_mode":"DRIVING"},{"distance":{"text":"94 m","value":94},"duration":{"text":"1 min","value":18},"end_location":{"lat":46.8512785,"lng":9.529309399999999},"html_instructions":"At the roundabout, take the <b>4th</b> exit","maneuver":"roundabout-right","polyline":{"points":"gt}|Gsbdy@A?CBCDCDADADAD?@?D?@@B@B@B@@B?B?BABA@A@A@A@C@??A@C@E?A@C?E?CAEAC?AB_@Dg@AM"},"start_location":{"lat":46.8514012,"lng":9.528904899999999},"travel_mode":"DRIVING"},{"distance":{"text":"0.2 km","value":193},"duration":{"text":"1 min","value":42},"end_location":{"lat":46.8506541,"lng":9.531663499999999},"html_instructions":"Continue onto <b>Gäuggelistrasse</b>","polyline":{"points":"os}|Geedy@Jy@D[TwATyANy@Ls@TmA@C@C@CDE"},"start_location":{"lat":46.8512785,"lng":9.529309399999999},"travel_mode":"DRIVING"},{"distance":{"text":"29 m","value":29},"duration":{"text":"1 min","value":9},"end_location":{"lat":46.8508301,"lng":9.5319513},"html_instructions":"Turn <b>left</b> onto <b>Grabenstrasse</b>/<wbr/><b>Route 3</b>","maneuver":"turn-left","polyline":{"points":"qo}|G{sdy@c@y@"},"start_location":{"lat":46.8506541,"lng":9.531663499999999},"travel_mode":"DRIVING"},{"distance":{"text":"6 m","value":6},"duration":{"text":"1 min","value":10},"end_location":{"lat":46.8507808,"lng":9.5319722},"html_instructions":"Turn <b>right</b> onto <b>Poststrasse</b>","maneuver":"turn-right","polyline":{"points":"up}|Guudy@HC"},"start_location":{"lat":46.8508301,"lng":9.5319513},"travel_mode":"DRIVING"}],"traffic_speed_entry":[],"via_waypoint":[]}]}}} {
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:57 [HTTP]: GET /api/v1/expenses/6894e4ed70028da2aef7a6fc [32m200[0m 16.765ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:57 [HTTP]: GET /api/v1/expenses/6894e4ed70028da2aef7a6fc [32m304[0m 12.207ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:40:12 [HTTP]: GET /api/v1/categories [32m304[0m 7.321ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:40:12 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m200[0m 11.649ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:40:12 [HTTP]: GET /api/v1/categories [32m304[0m 11.280ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:40:12 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 13.688ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:40:12 [HTTP]: GET /api/v1/categories [32m304[0m 9.746ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:40:36 [HTTP]: GET /api/v1/users [32m200[0m 6.097ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:40:36 [HTTP]: GET /api/v1/users [32m304[0m 4.165ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:41:19 [HTTP]: POST /api/v1/users [32m201[0m 65.690ms {"name":"Adéla Hess","email":"adelahess@icloud.com","password":"[REDACTED]","role":"sales_rep","status":"active"} {
+  "service": "expense-tracker"
+}
+2025-08-07 19:41:44 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 6.049ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:41:44 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true [32m200[0m 10.006ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:41:44 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 7.075ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:41:44 [HTTP]: GET /api/v1/categories?page=1&limit=10&sort=name&includeExpenseCounts=true [32m304[0m 6.578ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:41:44 [HTTP]: GET /api/v1/expenses?categoryId=6894e3fd70028da2aef7a690 [32m200[0m 21.430ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:41:44 [HTTP]: GET /api/v1/expenses?categoryId=6894e3fd70028da2aef7a693 [32m200[0m 34.844ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:41:44 [HTTP]: GET /api/v1/expenses?categoryId=6894e3fd70028da2aef7a696 [32m200[0m 38.149ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:42:14 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m200[0m 4.783ms - {
+  "service": "expense-tracker"
+}
+2025-08-07 19:42:14 [HTTP]: GET /api/v1/budgets?page=1&limit=10 [32m304[0m 5.209ms - {
+  "service": "expense-tracker"
+}

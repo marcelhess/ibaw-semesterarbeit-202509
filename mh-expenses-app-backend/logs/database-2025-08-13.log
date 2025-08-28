@@ -1,0 +1,48 @@
+2025-08-13 06:35:44 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-08-13 06:35:44 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-08-13 06:35:44 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expenses-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-08-13 06:35:44 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 36,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-08-13 06:35:44 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-08-13 06:35:44 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}
+2025-08-13 06:35:46 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-08-13 06:35:46 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-08-13 06:35:46 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expenses-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-08-13 06:35:46 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 36,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-08-13 06:35:46 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-08-13 06:35:46 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}

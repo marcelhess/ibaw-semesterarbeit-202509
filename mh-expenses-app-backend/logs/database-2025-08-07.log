@@ -1,0 +1,84 @@
+2025-08-07 19:34:00 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-08-07 19:34:00 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-08-07 19:34:00 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expense-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-08-07 19:34:00 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 40,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-08-07 19:34:00 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-08-07 19:34:01 [INFO]: Admin user created {
+  "service": "database-connection"
+}
+2025-08-07 19:34:01 [INFO]: Category 'Fuel' created {
+  "service": "database-connection"
+}
+2025-08-07 19:34:01 [INFO]: Category 'Tolls' created {
+  "service": "database-connection"
+}
+2025-08-07 19:34:01 [INFO]: Category 'Maintenance' created {
+  "service": "database-connection"
+}
+2025-08-07 19:34:01 [INFO]: Setting 'defaultCostPerKm' created {
+  "service": "database-connection"
+}
+2025-08-07 19:34:01 [INFO]: Setting 'maxDailyDistance' created {
+  "service": "database-connection"
+}
+2025-08-07 19:34:01 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}
+2025-08-07 19:35:57 [INFO]: Connection attempt 1 of 3 {
+  "service": "database-connection"
+}
+2025-08-07 19:35:57 [INFO]: Connecting to database... {
+  "service": "database-connection"
+}
+2025-08-07 19:35:57 [INFO]: Connected to database {
+  "host": "localhost",
+  "port": 27017,
+  "database": "expenses-tracker",
+  "readyState": 1,
+  "service": "database-connection"
+}
+2025-08-07 19:35:57 [INFO]: Successfully connected to database {
+  "connectionTimeMs": 38,
+  "mongoVersion": "8.13.0",
+  "service": "database-connection"
+}
+2025-08-07 19:35:57 [INFO]: Initializing default data... {
+  "service": "database-connection"
+}
+2025-08-07 19:35:57 [INFO]: Admin user created {
+  "service": "database-connection"
+}
+2025-08-07 19:35:57 [INFO]: Category 'Fuel' created {
+  "service": "database-connection"
+}
+2025-08-07 19:35:57 [INFO]: Category 'Tolls' created {
+  "service": "database-connection"
+}
+2025-08-07 19:35:57 [INFO]: Category 'Maintenance' created {
+  "service": "database-connection"
+}
+2025-08-07 19:35:57 [INFO]: Setting 'defaultCostPerKm' created {
+  "service": "database-connection"
+}
+2025-08-07 19:35:57 [INFO]: Setting 'maxDailyDistance' created {
+  "service": "database-connection"
+}
+2025-08-07 19:35:57 [INFO]: Default data initialization complete {
+  "service": "database-connection"
+}

@@ -1,0 +1,80 @@
+2025-08-07 19:38:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of cateringAllowance",
+  "path": "/api/v1/settings/key/cateringAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of cateringAllowance\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of accommodationAllowance",
+  "path": "/api/v1/settings/key/accommodationAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of accommodationAllowance\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of cateringAllowance",
+  "path": "/api/v1/settings/key/cateringAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of cateringAllowance\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-07 19:38:06 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of accommodationAllowance",
+  "path": "/api/v1/settings/key/accommodationAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of accommodationAllowance\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:03 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-07 19:39:03 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}

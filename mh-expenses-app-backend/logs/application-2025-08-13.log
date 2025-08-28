@@ -1,0 +1,666 @@
+2025-08-13 06:35:44 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-08-13 06:35:44 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-08-13 06:35:45 [DEBUG]: Logging initialized at debug level {
+  "service": "expense-tracker"
+}
+2025-08-13 06:35:46 [INFO]: Server running in development mode on port 5000 {
+  "service": "expense-tracker"
+}
+2025-08-13 07:23:22 [HTTP]: POST /api/v1/auth/register [32m201[0m 87.335ms {"name":"Hans Wurst","email":"hans.wurst@aussendienst.com","password":"[REDACTED]","role":"sales_rep"} {
+  "service": "expense-tracker"
+}
+2025-08-13 07:27:09 [HTTP]: POST /api/v1/auth/login [32m200[0m 64.627ms {"email":"hans.wurst@aussendienst.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-08-13 07:27:09 [HTTP]: GET /api/v1/settings [32m200[0m 11.546ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:27:09 [HTTP]: GET /api/v1/settings [32m304[0m 5.286ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:27:09 [HTTP]: GET /api/v1/categories [32m200[0m 18.464ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:27:09 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m200[0m 17.853ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:27:09 [HTTP]: GET /api/v1/categories [32m304[0m 7.960ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:27:09 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 7.130ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:27:09 [HTTP]: GET /api/v1/categories [32m304[0m 4.165ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:27:55 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m200[0m 9.584ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:27:55 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 5.905ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:27:55 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m200[0m 4.838ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:27:55 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 4.643ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:00 [HTTP]: GET /api/v1/auth/logout [32m200[0m 2.696ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:00 [HTTP]: GET /api/v1/settings [33m401[0m 0.191ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:00 [HTTP]: GET /api/v1/settings [33m401[0m 0.186ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:31 [HTTP]: POST /api/v1/auth/login [32m200[0m 61.292ms {"email":"hans.wurst@aussendienst.com","password":"[REDACTED]"} {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:31 [HTTP]: GET /api/v1/settings [32m304[0m 3.685ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:31 [HTTP]: GET /api/v1/settings [32m304[0m 3.512ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:31 [HTTP]: GET /api/v1/categories [32m304[0m 8.562ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:31 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 7.775ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:31 [HTTP]: GET /api/v1/categories [32m304[0m 5.659ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:31 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 4.947ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:31 [HTTP]: GET /api/v1/categories [32m304[0m 4.819ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:43 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 4.659ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:43 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 5.275ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:43 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 4.449ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:43 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 3.801ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:55 [HTTP]: GET /api/v1/categories [32m304[0m 5.890ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:55 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 5.128ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:55 [HTTP]: GET /api/v1/categories [32m304[0m 6.659ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:55 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 6.072ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:28:55 [HTTP]: GET /api/v1/categories [32m304[0m 5.220ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:00 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 4.581ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:00 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 5.089ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:00 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 4.636ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:00 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 3.817ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:06 [HTTP]: GET /api/v1/categories [32m304[0m 7.252ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:06 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 6.954ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:06 [HTTP]: GET /api/v1/categories [32m304[0m 5.843ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:06 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 5.233ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:06 [HTTP]: GET /api/v1/categories [32m304[0m 4.393ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:10 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 17.913ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:10 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 18.233ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:10 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 13.450ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:10 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 6.151ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:16 [HTTP]: GET /api/v1/categories [32m304[0m 7.380ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:16 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 6.768ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:16 [HTTP]: GET /api/v1/categories [32m304[0m 5.893ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:16 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 5.106ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:16 [HTTP]: GET /api/v1/categories [32m304[0m 4.888ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:19 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 4.064ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:19 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 4.823ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:19 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 4.197ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:19 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 4.044ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:30 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:30 [HTTP]: GET /api/v1/settings/key/costPerKilometer [33m404[0m 6.317ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:30 [HTTP]: GET /api/v1/categories?isActive=true [32m200[0m 8.698ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:30 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:30 [HTTP]: GET /api/v1/settings/key/costPerKilometer [33m404[0m 5.776ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:30 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 6.228ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:34 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 6.425ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:34 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 5.402ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:34 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 4.497ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:34 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 4.054ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:37 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:37 [HTTP]: GET /api/v1/settings/key/costPerKilometer [33m404[0m 6.226ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:37 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 10.631ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:37 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:37 [HTTP]: GET /api/v1/settings/key/costPerKilometer [33m404[0m 6.716ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:29:37 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 5.741ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:02 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse [32m200[0m 162.328ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:03 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse+ [32m200[0m 68.677ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:03 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse+3 [32m200[0m 69.845ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:03 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse+37 [32m200[0m 68.148ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:05 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse+37,+ [32m200[0m 74.127ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:07 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse+37,+88 [32m200[0m 72.305ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:08 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse+37,+880 [32m200[0m 58.245ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:08 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse+37,+8808 [32m200[0m 54.820ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:08 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse+37,+8808+ [32m200[0m 59.983ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:12 [HTTP]: GET /api/v1/maps/places/details/ChIJow_yNru2mkcRGMMSxUXZuTw [32m200[0m 101.436ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:13 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse+37,+8808+Pf%C3%A4ffikon,+Switzerland [32m200[0m 73.548ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:48 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse [32m304[0m 136.689ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:48 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse+3 [32m304[0m 36.356ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:49 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse+37 [32m304[0m 33.876ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:49 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse+37,+ [32m304[0m 37.149ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:51 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse+37,+8808 [32m304[0m 43.808ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:53 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse+37,+ [32m304[0m 40.255ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:54 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse+37,+Pf%C3%A4 [32m200[0m 56.791ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:55 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse+37,+Pf%C3%A4ffikon [32m200[0m 59.139ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:57 [HTTP]: GET /api/v1/maps/places/details/ChIJow_yNru2mkcRGMMSxUXZuTw [32m304[0m 70.555ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:30:57 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Talstrasse+37,+Pf%C3%A4ffikon,+Switzerland [32m200[0m 51.047ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:31:11 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Golf+Club+ [32m200[0m 80.792ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:31:12 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Golf+Club+Bad+ [32m200[0m 53.234ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:31:13 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Golf+Club+Bad+R [32m200[0m 50.411ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:31:17 [HTTP]: GET /api/v1/maps/places/details/ChIJ98sAHo7LhEcRuRm9prv76Kk [32m200[0m 110.474ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:31:17 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Golf+Club+Bad+Ragaz,+Hans+Albrecht-Strasse,+Bad+Ragaz,+Switzerland [32m200[0m 53.760ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:31:44 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Seedamm [32m200[0m 100.871ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:31:47 [HTTP]: GET /api/v1/maps/places/details/ChIJP-uUvrq2mkcR1gVsggFq8Bo [32m200[0m 115.754ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:31:47 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Seedamm-Center,+Gwattstrasse,+Pf%C3%A4ffikon,+Switzerland [32m200[0m 54.257ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:32:18 [HTTP]: POST /api/v1/maps/route/optimize [32m200[0m 377.042ms {"originPlaceId":"ChIJow_yNru2mkcRGMMSxUXZuTw","destinationPlaceId":"ChIJ98sAHo7LhEcRuRm9prv76Kk","waypoints":[{"placeId":"ChIJP-uUvrq2mkcR1gVsggFq8Bo","stopover":true,"description":"Seedamm-Center, Gwattstrasse, Pfäffikon, Switzerland"}],"optimizeWaypoints":true,"includeAlternatives":false} {
+  "service": "expense-tracker"
+}
+2025-08-13 07:33:04 [ERROR]: Error enhancing note with Gemini AI: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"model":"gemini-1.5-pro","location":"global"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-1.5-pro","location":"global"}}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"18s"}] {
+  "service": "expense-tracker",
+  "originalNote": "Business lunch with",
+  "error": "Error: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\",\"quotaId\":\"GenerateContentInputTokensPerModelPerMinute-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-1.5-pro\",\"location\":\"global\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-1.5-pro\",\"location\":\"global\"}}]},{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"18s\"}]\n    at makeRequest (file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/node_modules/@google/generative-ai/dist/index.mjs:210:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async generateContent (file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/node_modules/@google/generative-ai/dist/index.mjs:534:22)\n    at async enhanceExpenseNotes (file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/expense.controller.js:43:20)\n    at async file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/expense.controller.js:596:27"
+}
+2025-08-13 07:33:04 [HTTP]: POST /api/v1/expenses/enhance-notes [32m200[0m 194.236ms {"notes":"Business lunch with","startingPoint":"Talstrasse 37, Pfäffikon, Switzerland","destinationPoint":"Golf Club Bad Ragaz, Hans Albrecht-Strasse, Bad Ragaz, Switzerland","distance":65.987,"totalCost":46.19089999999999,"journeyDate":"2025-08-13","categoryId":"6894e3fd70028da2aef7a690"} {
+  "service": "expense-tracker"
+}
+2025-08-13 07:33:12 [ERROR]: Error enhancing note with Gemini AI: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"9s"}] {
+  "service": "expense-tracker",
+  "originalNote": "Business lunch with a client who will be playing golf after the lunch",
+  "error": "Error: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\",\"quotaId\":\"GenerateContentInputTokensPerModelPerMinute-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}}]},{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"9s\"}]\n    at makeRequest (file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/node_modules/@google/generative-ai/dist/index.mjs:210:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async generateContent (file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/node_modules/@google/generative-ai/dist/index.mjs:534:22)\n    at async enhanceExpenseNotes (file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/expense.controller.js:43:20)\n    at async file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/expense.controller.js:596:27"
+}
+2025-08-13 07:33:12 [HTTP]: POST /api/v1/expenses/enhance-notes [32m200[0m 158.081ms {"notes":"Business lunch with a client who will be playing golf after the lunch","startingPoint":"Talstrasse 37, Pfäffikon, Switzerland","destinationPoint":"Golf Club Bad Ragaz, Hans Albrecht-Strasse, Bad Ragaz, Switzerland","distance":65.987,"totalCost":46.19089999999999,"journeyDate":"2025-08-13","categoryId":"6894e3fd70028da2aef7a690"} {
+  "service": "expense-tracker"
+}
+2025-08-13 07:33:41 [ERROR]: Error enhancing note with Gemini AI: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"model":"gemini-1.5-pro","location":"global"}}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"41s"}] {
+  "service": "expense-tracker",
+  "originalNote": "{\"original\":\"Business lunch with a client who will be playing golf after the lunch.\",\"enhanced\":\"Business lunch with a client who will be playing golf after the lunch\"}",
+  "error": "Error: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\",\"quotaId\":\"GenerateContentInputTokensPerModelPerMinute-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-1.5-pro\",\"location\":\"global\"}}]},{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"41s\"}]\n    at makeRequest (file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/node_modules/@google/generative-ai/dist/index.mjs:210:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async generateContent (file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/node_modules/@google/generative-ai/dist/index.mjs:534:22)\n    at async enhanceExpenseNotes (file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/expense.controller.js:43:20)\n    at async file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/expense.controller.js:122:31"
+}
+2025-08-13 07:33:41 [HTTP]: POST /api/v1/expenses [32m201[0m 102.832ms {"category":"6894e3fd70028da2aef7a690","journeyDate":"2025-08-12","startingPoint":"Talstrasse 37, Pfäffikon, Switzerland","destinationPoint":"Golf Club Bad Ragaz, Hans Albrecht-Strasse, Bad Ragaz, Switzerland","startingPointPlaceId":"ChIJow_yNru2mkcRGMMSxUXZuTw","destinationPointPlaceId":"ChIJ98sAHo7LhEcRuRm9prv76Kk","waypoints":[{"placeId":"ChIJP-uUvrq2mkcR1gVsggFq8Bo","description":"Seedamm-Center, Gwattstrasse, Pfäffikon, Switzerland"}],"optimizeWaypoints":true,"distance":65.987,"costPerKm":0.7,"totalCost":46.19089999999999,"notes":"{\"original\":\"Business lunch with a client who will be playing golf after the lunch.\",\"enhanced\":\"Business lunch with a client who will be playing golf after the lunch\"}","routeSnapshot":{"distanceText":"66.0 km","distanceValue":65.987,"durationText":"41 min","durationValue":2510,"origin":{"placeId":"ChIJow_yNru2mkcRGMMSxUXZuTw","name":"Talstrasse 37","formattedAddress":"Talstrasse 37, 8808 Pfäffikon, Switzerland","location":{"lat":47.1998544,"lng":8.797829799999999}},"destination":{"placeId":"ChIJ98sAHo7LhEcRuRm9prv76Kk","name":"Golf Club Bad Ragaz","formattedAddress":"Hans Albrecht-Strasse 1, 7310 Bad Ragaz, Switzerland","location":{"lat":46.99940950000001,"lng":9.5049733}},"waypoints":[{"placeId":"ChIJP-uUvrq2mkcR1gVsggFq8Bo","name":"Seedamm Mall","formattedAddress":"Gwattstrasse 11, 8808 Pfäffikon, Switzerland","location":{"lat":47.2005556,"lng":8.793055599999999}}],"legs":[{"distance":{"text":"0.4 km","value":423},"duration":{"text":"1 min","value":55},"end_address":"Gwattstrasse 11, 8808 Pfäffikon, Switzerland","end_location":{"lat":47.2001544,"lng":8.793443},"start_address":"Talstrasse 37, 8808 Pfäffikon, Switzerland","start_location":{"lat":47.2001891,"lng":8.797787099999999},"steps":[{"distance":{"text":"0.1 km","value":97},"duration":{"text":"1 min","value":9},"end_location":{"lat":47.19954300000001,"lng":8.7972133},"html_instructions":"Head <b>west</b> on <b>Talstrasse</b><div style=\"font-size:0.9em\">Restricted usage road</div>","polyline":{"points":"exa_Heiut@@T@N?D?BDRJP@?HF~AT"},"start_location":{"lat":47.2001891,"lng":8.797787099999999},"travel_mode":"DRIVING"},{"distance":{"text":"0.3 km","value":323},"duration":{"text":"1 min","value":46},"end_location":{"lat":47.2001585,"lng":8.7934885},"html_instructions":"Turn <b>right</b> to stay on <b>Talstrasse</b>","maneuver":"turn-right","polyline":{"points":"cta_Hqeut@CxI@T@NBXPlABTAHEZELCFGHKNEBGH_@^GFMJKJQRGHCFAJ?R"},"start_location":{"lat":47.19954300000001,"lng":8.7972133},"travel_mode":"DRIVING"},{"distance":{"text":"3 m","value":3},"duration":{"text":"1 min","value":0},"end_location":{"lat":47.2001544,"lng":8.793443},"html_instructions":"Continue straight onto <b>Gwattstrasse</b><div style=\"font-size:0.9em\">Destination will be on the right</div>","maneuver":"straight","polyline":{"points":"_xa_Hintt@@H"},"start_location":{"lat":47.2001585,"lng":8.7934885},"travel_mode":"DRIVING"}],"traffic_speed_entry":[],"via_waypoint":[],"from":{"placeId":"ChIJow_yNru2mkcRGMMSxUXZuTw","name":"Talstrasse 37","formattedAddress":"Talstrasse 37, 8808 Pfäffikon, Switzerland","location":{"lat":47.1998544,"lng":8.797829799999999}},"to":{"placeId":"ChIJP-uUvrq2mkcR1gVsggFq8Bo","name":"Seedamm Mall","formattedAddress":"Gwattstrasse 11, 8808 Pfäffikon, Switzerland","location":{"lat":47.2005556,"lng":8.793055599999999}},"index":0},{"distance":{"text":"65.6 km","value":65564},"duration":{"text":"41 mins","value":2455},"end_address":"Hans Albrecht-Strasse 1, 7310 Bad Ragaz, Switzerland","end_location":{"lat":46.9993963,"lng":9.5049976},"start_address":"Gwattstrasse 11, 8808 Pfäffikon, Switzerland","start_location":{"lat":47.2001544,"lng":8.793443},"steps":[{"distance":{"text":"83 m","value":83},"duration":{"text":"1 min","value":10},"end_location":{"lat":47.2000793,"lng":8.792357299999999},"html_instructions":"Head <b>west</b> on <b>Gwattstrasse</b>","polyline":{"points":"}wa_H_ntt@?N@\\@H@N@L?RDlB"},"start_location":{"lat":47.2001544,"lng":8.793443},"travel_mode":"DRIVING"},{"distance":{"text":"0.2 km","value":163},"duration":{"text":"1 min","value":23},"end_location":{"lat":47.2015378,"lng":8.7921323},"html_instructions":"Turn <b>right</b> to stay on <b>Gwattstrasse</b>","maneuver":"turn-right","polyline":{"points":"owa_Hggtt@wBLw@HCBa@Ba@B[DOB"},"start_location":{"lat":47.2000793,"lng":8.792357299999999},"travel_mode":"DRIVING"},{"distance":{"text":"0.3 km","value":318},"duration":{"text":"1 min","value":31},"end_location":{"lat":47.2011066,"lng":8.7950375},"html_instructions":"Turn <b>left</b> onto the ramp to <b>Chur</b>/<wbr/><b>Zürich</b>","maneuver":"ramp-left","polyline":{"points":"s`b_Hyett@ATAF?BAHCFCFEDEBE@C?C?CAGEGGEKAGAI?K@QAQHe@V}@Z}@Pi@\\gANa@J_@Fa@Fi@Bg@?k@Ay@"},"start_location":{"lat":47.2015378,"lng":8.7921323},"travel_mode":"DRIVING"},{"distance":{"text":"0.8 km","value":819},"duration":{"text":"1 min","value":54},"end_location":{"lat":47.2006399,"lng":8.8045787},"html_instructions":"Slight <b>left</b> onto the ramp to <b>San Bernardino</b>/<wbr/><b>Chur</b>/<wbr/><b>Glarus</b>","maneuver":"ramp-left","polyline":{"points":"}}a_H_xtt@C]Ca@G}@Ck@Eq@Eg@?MAYA[AY?[?]@c@@_@@O@QBQ@KBQF[FUHWDSJUP_@P[RWRW`@e@LMHIHILMHMHMHQFSDQDW@Q?SC[CQEIGOEKIIAACEYWGGWYOQQc@I[Ia@AGASCa@?q@@qA@q@DkCF}ADaA?eA"},"start_location":{"lat":47.2011066,"lng":8.7950375},"travel_mode":"DRIVING"},{"distance":{"text":"59.2 km","value":59201},"duration":{"text":"33 mins","value":1995},"end_location":{"lat":47.0324469,"lng":9.4675587},"html_instructions":"Merge onto <b>A3</b><div style=\"font-size:0.9em\">Toll road</div>","maneuver":"merge","polyline":{"points":"_{a_Hssvt@B]NoBLqAVkBFWTsAb@yBPy@VeARs@Tw@d@yA`@gA`@cAd@cA`AoBXe@dAaBhAwAt@aATW|HeJf@k@\\a@`@e@d@i@^c@JKLOV[h@o@l@s@j@q@bB_Cb@{@j@gAb@_ARg@Rg@BETk@^eA`@oA\\qARy@TcA`@eC@IT_BNwAX}C@MPqCb@oHJkBTsDJ{BDy@Dq@Ds@FeADu@NkCVgEDi@B]Dw@PkCVmDPyBDc@B]BYHy@Fo@Dc@Fo@B[Fi@Dc@Jy@Dg@Fi@Ho@L{@Hs@NkAPgAZmBDUBSl@qCxAmHj@aCz@kDJc@No@j@}Bx@mDd@wBh@eCrAyHDW@ID[ToBNwA`@sDPyBD[BYLiBV{DRmFFwDDoBB}B@{A?wCA{@A}AEcCEsA?EGwACk@Gu@Go@CWQyACQCQQ_Aw@iDs@yBAEEOEKw@kBQYU_@Wa@k@aA]e@MOOOm@u@}BwBeJ}G{EqDYYYYoByB{@eAo@y@aAuAyA_Ca@w@[e@m@mAcAsBe@iAg@kAk@}AUq@Ws@a@qA}@}CU}@m@uC[{Ak@sDM}@Iq@AEUoBWiCMcBQiCEcAGmBGyBAoB?_@?s@?Y@sCDoBBu@Be@?GD_AFeBLqBJ}ALmBPmBTeBVqBn@eEb@gCh@gCh@eCjA{Ev@qCv@kC`@oA`AuCbB_Fb@sAL_@DOLg@\\mAZmAd@cC^_CPsAPoAH{@NcBLgBBYBWDw@p@mIDi@B[H{@\\iD\\iD`@wDj@yEb@kDl@cFNiANiABWVkBlBgND[RuAl@uDVeBn@eEd@sC^yBVwAx@wEr@yDbCsMVuAVmAj@iCd@uB\\sA^wAl@uBrBeH`AeDx@uCt@uCd@oB@A`AgEd@eCFWReAZoBNcAZyBHk@J}@\\{CR}BNqB?KFw@NcCJwCHoBBwABgADmC?uA@eC?iDC_DAcBGkEC{AEgCMiFUqJQiHOeH[kNMgFMoFM{Fy@o]EaB_@wNCu@Am@Aq@KuECaB?ICcAAyACcE?wD?cA@_@?q@@eCD{FH{FFkC@i@LkDN{DLiCPaDLoBFcAL}AHoAN_BJmAFw@J_AVmCHu@NwAJw@Hw@d@sDFc@D_@DQFi@`@iCZwB`@eCBKh@uCDYj@wCj@qC\\}AlAmFh@uBb@iB~AyFfAeDbAeDr@sBlAiD|A}DvAgDTi@HOLYTg@Ti@Vg@BI~CoGfAsBVg@Xe@tAgCpAyB`@o@rBeDr@iAz@uAnAoB`I}L|IeNbA}Af@w@`CqDfBqCbCwD|BoD~BmD~C}E|AcCdCyDPWFKbBkCnCeEnByCnB{CxA}BdA_BXe@NUHMb@o@tBcDvBgDhEwG~AeCbA}AjDoFn@cA^k@d@s@NUv@oAd@u@l@}@dAaBZe@Va@PYfAaBXc@T]T]Zi@LQj@{@T_@RYl@}@tAyB|@sAx@qAdAcBh@y@bBkCNShAgBt@iALU^i@f@w@BEHMHK`@o@z@qA`@k@hAeBzA}Bb@q@|AaCxA{B|@wA^k@Zc@PYFIXc@j@y@hA_Bv@gApCmDbBoBrAwAjAmAfAcAhAgAhAcAbAy@NK\\WXUDC^WXUd@[VSXQb@[d@]TOTOLKn@c@|ByANKd@[j@]BAd@]^YBAJIbE}CbB}A|AuAdCeCVYVYZ]\\]p@y@hB}BhB_Cf@q@@AjAeBDGXc@Xc@j@}@\\m@l@cAj@aAh@eATa@j@eAd@aAf@gAVi@JUJU`@{@Rg@Pc@Re@b@qARi@Ng@J_@Rm@\\sAh@yBFSDUJi@Hg@Ha@BKDWBOHo@L{@D]Fm@Fo@N{AB_@BO@OHgADq@Bi@FeAB_A@KBo@DaCDcD@aC?yACsCCkCEeEAOCyG?yB?sD@wA?Y@kA@yA@uA?q@BqA@wAByBFuDDuEDcCB{BDoDDaC@uA@g@?S@qAFeE?[JwGDgCHoDHwCJmC@MFuAHcBFqADw@PcCJ}AFw@Dk@R_CJcA@SVcCNyANsAPiBNyAN_BB_@B_@HwADq@H{AF}A?CDyABo@@o@B}ABuA@o@BmB?o@BsB@sB?OBkBBmB@iA?ABe@BwAFkB@[BYBaAFkALmB?AHkAF}@BUB]BU@UDc@Dc@De@@C@QBW@CD_@LiAFo@DYNmANeAJw@F]F]`@iCJo@XeBToAPiAReARiAF_@ToAFc@Hc@F_@DSDUf@kDhAwGLq@DWl@kDd@uCBQToALo@PaATqAT}ALw@Jq@d@eDBYJs@h@kE@CLqAJmADm@Du@PyC@MPmCNaCNaC@KJ{ADg@LeBFy@^mE`@uEFs@Fm@Hw@Hq@^uDXgCDc@?CJ{AH_BDm@@Ih@mHBSHcA^mE@GFo@@Ob@kGDm@@M^wD\\qDLoAl@qFBUDW?ABUBQ@GvAiMbAuIRuAbAgHBUHk@T}AHc@~@cGDURsA@E@Gb@mCRsA@?BUnAgHf@gC@GJe@rAcH@AJm@@AJm@Je@@KLo@`@sBtBwKDSF[RgAf@gCZ_BRcAHc@hC_N?C@CLo@t@yDt@uDf@kCF[X_Bn@qDVeBVcBJq@@C\\kC@EFs@TgCJwAJoBDwAB_B@s@?s@@o@Ay@A}DI{BEmAImAGs@AUScCEa@AEAK_@uCIw@Kk@]mBm@aCOm@Mg@AGK_@W{@c@yAc@{AiAsD]qAMk@I[CIGWAIEOCQCOG[Im@Gc@Ec@KeA?AAUCg@E}@?QAs@?q@?U?U@a@@u@?MBw@B{@Dg@HqAHcAFe@BUJsABQBQ?CTiBLyALqADe@H_AFcAFcABa@DkADu@HyDBaADsBDwABkA?GDo@D{@H{AJqAHeAFk@Da@Fe@D]@GF]BOHm@ReA\\{AVaAT{@j@sBl@yBFQh@kBPy@Ns@VsAf@mC`@gCl@mEp@aIHkADs@Du@Ds@Bu@Bs@Du@@_@?O@E?u@@S?[?I?MBcA?k@@gA?e@?c@?EAgBEkE?IEyA?ECq@?AC_AE{@Cc@IeB?ACe@GuAIyAEcACm@C{@AeA?W?M?y@?kA?[?KBcABcAPwEBk@HsB?K?M@SBsA?q@@yAAa@AcBE{AAy@CkBEkB?ACcBA_BA}@?iA?uB@u@@eBFsB?U@KBeALgCDw@HmA@UPoBNwA@GFg@Hs@Hk@F_@@KD[DQ@MDWBMDWBKDWBMFW@KFWBMDUDODUBMFU@KFWBEF]BMFUBMFUBMDSDODUBG?EFSBMFUBMDWDKDUBMFUBMDUBMDUBMDUBMDWBMFY@IDUBMDW@MDUBOBUBMBWBMFcA?Gl@mGPmCFeDBuB@sA?eA?k@Ae@?g@Ai@?g@Ag@Ag@?QASA_@?GAi@AAAe@Ag@Cg@Cg@Cg@Ci@Ci@Ce@Eg@Cg@Ee@Eg@Eg@Ee@Ee@Ee@Gk@Ea@Ge@Ig@Gg@Ie@Ie@I_@AKIa@Oq@Mg@ESK[K_@GQGSQg@Qe@Wo@MYO[m@kA[g@e@u@S[EEa@i@UYUYUYSWUYW[OQGISYSWQWU_@S[Q[S_@MYUe@O[Oa@O]k@kB[mAUaAUiAKq@G[MmAIq@CUKcBGcBCeB?I?aBDkBDuADc@De@D_AFu@N}APmABQ^cCVaB`@qB^iBp@wCdAiEVkA\\yAJa@Jc@Jc@Jg@^eBTkAX{ARgABMJm@j@eETkBBMB[PcBL}A@MJgBFsAJwFC{HAaE?A?cE@aCBqBFoC@UFuBJuB@U?EJ_BHeAb@mHL_CDs@@Q@U?KDs@D}@Bk@JcDBqA@_A@gD?U?A?KAg@CsBCgAEuAKkBS_CCOQ}A]yBk@qC]uAa@{Aw@_CEIo@}Ao@uAKUi@_AS_@Q]Q[c@w@s@sAWc@]s@c@}@O_@c@cAM]O_@Ma@M[M_@[cA[eAMg@K_@Kc@I]Kg@UiAOy@AKIc@G_@Ge@QqAMiAEc@MkACe@Ei@KgBIuBAWAa@Ac@AqAAqB@i@@uADeCJmDBu@?ELiEH}CDiBFcD?a@?_@AmDGsEAg@?AAYGqBQgDMcBEw@SqBO_BI}@a@{DEg@OwACO?CKeAK_AC]C[IaAGiA?EAMEq@ACGsACmACw@?G?_@C{A?aCDyDLyC@k@NaC?GZkDV{BRwAXaBRmATgA|@sDbAiDpAmDHSx@mBx@_BHObBsCd@q@zAmBt@}@Z[Z]@?`A_ANOFE^Y\\[HGxAcAlBkAl@[p@]rAm@nAe@hFcBzAi@tAi@bBs@l@Yz@g@`Ak@v@g@fAu@h@a@LKNMt@m@f@c@\\[\\]POn@s@p@u@~@eAzAqBvAmBhBeCbByBHKz@aAf@i@h@m@|@{@j@c@ROp@i@XQTODEFCbAk@b@WfAi@~@e@~@a@hDyA|CwAj@Y|@i@z@g@|@m@pB{ANMBCXUZWFGPQZY`@a@XWBEVWv@{@`AiAHKbAmAfB_CfCoDh@s@|DuFfCoDdBcCt@cAt@eAJONQhBiC|AwBjAaBfIiLvAsBbAsArEqGb@m@pJ{MNSNUjAaB`B{BfA_B~BcDn@}@lAcBJOhA}AT]hD{ERWXa@Zc@t@cAh@w@hA_Bj@{@tByCrB}Cz@sA`CyDhAiBd@y@b@u@^s@bAiBlEqIbAqBz@oBjAiCbB}Dh@kAv@uBXq@p@eB~@aC~@iCjAaDHYHUd@qAfB}ElBkFx@qB|CqIz@cC^cAFQRk@BGlAeDxAcEjAcDtAyDxAcE|BoGpAoDx@}B~AsE|BuGt@{BTk@nDcKvEuMZ}@Rk@Rk@|@cCfA_D`@mA\\eANi@HWHY\\oALi@ZsALq@Jk@VuARwAHk@PsA@Q?AD]\\sD^cGP{BFq@Fs@?Ab@uCnAcHHa@J_@`BoFXq@j@{AVm@f@eAh@gAv@sA^m@fCoDJMBARUh@k@p@s@FE\\Y\\Y~DiCf@_@j@a@\\W@AVQlH_FdF_EpAeAx@u@RSJIjAkAtB}Bd@o@f@i@jCcE~AgCTa@v@{An@qA@CVo@p@}Af@qAfA}CTy@BGDQBKDODKFWL]l@yB\\{AViAVmATwA\\cBR_BT{APoAN_BNmA`@uFR{DDoADm@BqA?a@DoE?sCC{CGyCE}@GsDCq@?MCs@IcK?}A@m@?C@s@@c@Bo@Dw@HaA@EHuAHk@@GD[@I@ID[Ly@Ny@DSRcAH]b@cBR{@\\iAFSJYJYJSp@{A^u@JQXc@FOx@oAj@u@fAsA`BgBnAmA`A{@~IsIp@s@"},"start_location":{"lat":47.2006399,"lng":8.8045787},"travel_mode":"DRIVING"},{"distance":{"text":"2.2 km","value":2206},"duration":{"text":"1 min","value":73},"end_location":{"lat":47.0190814,"lng":9.4890335},"html_instructions":"Continue onto <b>A13</b><div style=\"font-size:0.9em\">Toll road</div>","polyline":{"points":"y_a~Ggcxx@^e@b@g@r@aA@Av@iABCT]@Al@}@bAcBr@qA|@cBbAkBrCuFTa@JSFKZm@|Vof@h[ym@Ve@pB{D|BqEFMHO"},"start_location":{"lat":47.0324469,"lng":9.4675587},"travel_mode":"DRIVING"},{"distance":{"text":"0.4 km","value":439},"duration":{"text":"1 min","value":28},"end_location":{"lat":47.0165044,"lng":9.4934142},"html_instructions":"Take exit <b>12-Bad Ragaz</b> toward <b>Bad Ragaz</b>/<wbr/><b>Pfäfers</b>/<wbr/><b>Valens</b>","maneuver":"ramp-right","polyline":{"points":"gl~}Gmi|x@f@s@n@kA\\s@l@qADIbAqBnAiCDIjB_Ef@kA@?h@iA"},"start_location":{"lat":47.0190814,"lng":9.4890335},"travel_mode":"DRIVING"},{"distance":{"text":"0.3 km","value":287},"duration":{"text":"1 min","value":28},"end_location":{"lat":47.0142715,"lng":9.4936698},"html_instructions":"Turn <b>right</b> onto <b>Rheinaustrasse</b>","maneuver":"turn-right","polyline":{"points":"c|}}Gyd}x@RVJNLLJNLNTX`@VZDh@Gf@]`@k@DG@A\\c@\\YBCj@[TIb@@"},"start_location":{"lat":47.0165044,"lng":9.4934142},"travel_mode":"DRIVING"},{"distance":{"text":"1.9 km","value":1875},"duration":{"text":"3 mins","value":180},"end_location":{"lat":47.0006655,"lng":9.5063195},"html_instructions":"At the roundabout, continue straight onto <b>Rheinaustrasse</b>/<wbr/><b>Route 13</b>/<wbr/><b>Route 3</b><div style=\"font-size:0.9em\">Continue to follow Route 13/<wbr/>Route 3</div>","maneuver":"roundabout-right","polyline":{"points":"en}}Gmf}x@?@@@@@@@@@@??@@?@?@@@?@?@A@?@?@A@??A@A@A@A?A@A?A?A@??A?A?A?A@AZMb@IVCVEVGf@KJGJIJCl@MfASdCg@~@SxAYPEv@STGn@Wl@e@bAy@bA}@RKXU@A`@g@Zs@DGBGDGz@gBP[l@oAHMj@aAdAuARUTUl@i@n@k@d@SLGlAi@dCy@PG|@Wd@Ut@g@n@c@PIjA_@^Q^Wd@u@h@mAb@gAFMn@wAN_@?AN[pA_DRg@fAeCPc@h@sAz@oBrAeD"},"start_location":{"lat":47.0142715,"lng":9.4936698},"travel_mode":"DRIVING"},{"distance":{"text":"0.2 km","value":173},"duration":{"text":"1 min","value":33},"end_location":{"lat":46.9993963,"lng":9.5049976},"html_instructions":"Turn <b>right</b> onto <b>Hans Albrecht-Strasse</b><div style=\"font-size:0.9em\">Destination will be on the right</div>","maneuver":"turn-right","polyline":{"points":"eyz}Gou_y@v@v@dBpBl@j@p@p@"},"start_location":{"lat":47.0006655,"lng":9.5063195},"travel_mode":"DRIVING"}],"traffic_speed_entry":[],"via_waypoint":[],"from":{"placeId":"ChIJP-uUvrq2mkcR1gVsggFq8Bo","name":"Seedamm Mall","formattedAddress":"Gwattstrasse 11, 8808 Pfäffikon, Switzerland","location":{"lat":47.2005556,"lng":8.793055599999999}},"to":{"placeId":"ChIJ98sAHo7LhEcRuRm9prv76Kk","name":"Golf Club Bad Ragaz","formattedAddress":"Hans Albrecht-Strasse 1, 7310 Bad Ragaz, Switzerland","location":{"lat":46.99940950000001,"lng":9.5049733}},"index":1}],"optimizedWaypointOrder":[{"originalIndex":0,"placeId":"ChIJP-uUvrq2mkcR1gVsggFq8Bo","details":{"placeId":"ChIJP-uUvrq2mkcR1gVsggFq8Bo","name":"Seedamm Mall","formattedAddress":"Gwattstrasse 11, 8808 Pfäffikon, Switzerland","location":{"lat":47.2005556,"lng":8.793055599999999}}}],"route":{"summary":"Talstrasse","overview_polyline":{"points":"exa_Heiut@Bn@\\l@~ATCxIBd@VfCWz@y@|@aApAHfCDlBwBL{@L_BLQXAJO^SDY[Ao@^uBzAqE^sCa@iJA{Ef@{Ct@eBvAcBj@o@`@eAByAWw@yA}Ag@iBCyDT}I`@eHxAqIrAkFnCiHzAuCnCyDpLkNdBqBxHqJtEkKhB_HhAgIdCca@dD_g@x@oIlBaNzHs]|EeVb@mDhAaL|@mPRaOIuLw@uLqAmGaA{CwBgEgBgCkDmDaQoM_FsFmFgIsDqHaCoGcDcM_B_K}@cJg@uLA}Ej@_S`A_LtCgQdF_SjFyO~@eDrBeLxBoW`Es_@pFua@`Iye@~EaWpCwKdHwVnC_MvCqSj@sHh@cNJqLMyRyBcbAcCkdAY_\\HsM`@}QlBi\\fBqQ`D{T~AsI`EsQnGoTvHcStGgNjNcV`|@ysAz_AeyA~l@q~@vCgE`K}LfH}GjCsB`FmDhIoF~MwKpEwEbHuIxFuIjHgNjDuIpCwK~@gGx@sJb@sSSwc@v@wu@f@_]hA{V|Dyd@d@kPR_TZmLr@oKjBuPdFqZdKyn@`BaPxAiUxEij@fCg\\jCuW|Foe@hCwPbIsc@nPk{@vDyT|@mI`@_K@qE[uMqAoM{CuMsEePo@mEY{HPmHr@mItAePh@}S`AsMfBeJzEiRhAuG~AoOZiFR_HDuHQwMm@}MO_Lf@sPAcNS_R^uRfAgMtAmIzAaH|CwPx@gJ^}NGaJm@iOq@uHcAoG}AwFgAkCcCeEkDkEmC}DgA{BgByF_AyEg@yFKuHVkGn@aH|AiJpF{UjD_SrAaPDwVLgQl@cMfAgSVmPOyHc@{F{AiJ}B{HqF{K_FkKgCsIwA_Is@kG_@mH?gPt@a[KiM[uHyBgVu@_JYkH@wL^oI`BaNjDsNnEoKnFcIhFgFnFsDbGmC~NkFbFuCjG_FpCwC|IkLpEqFfD}C~GcEfMyFbFyCpFoE~GwHpXw_@jq@{_Ap^}g@zJuOlDmGxK}T~EqL~KsZ`M}\\nk@_`B|F_QtA_G`AeGpBkVzBoNpCcJtCwGjF_IvDqDpHcFlPsLjDyCnGcHxHiMzBcF~CkJ`BkGbBsIjAkJjAoQNqJQgOW{Xl@iKt@{ErCsKhBwDfCyDzHeItMuMzFsInKgSpw@k|AvDcHfKaTh@kAh@iARVX\\X^v@p@dAApAsAjB}Az@CFDHBNMBKhCm@jAa@zH}AxD{@|A}@fCwBpAkAj@kAdCaFzCcEpCqBbHcC|CkBjBq@dAmAdC{FpB}EvCeHnCuG|ChD~A|A"},"bounds":{"northeast":{"lat":47.2018836,"lng":9.5063195},"southwest":{"lat":46.9993963,"lng":8.7917724}},"warnings":[],"copyrights":"Powered by Google, ©2025 Google","legs":[{"distance":{"text":"0.4 km","value":423},"duration":{"text":"1 min","value":55},"end_address":"Gwattstrasse 11, 8808 Pfäffikon, Switzerland","end_location":{"lat":47.2001544,"lng":8.793443},"start_address":"Talstrasse 37, 8808 Pfäffikon, Switzerland","start_location":{"lat":47.2001891,"lng":8.797787099999999},"steps":[{"distance":{"text":"0.1 km","value":97},"duration":{"text":"1 min","value":9},"end_location":{"lat":47.19954300000001,"lng":8.7972133},"html_instructions":"Head <b>west</b> on <b>Talstrasse</b><div style=\"font-size:0.9em\">Restricted usage road</div>","polyline":{"points":"exa_Heiut@@T@N?D?BDRJP@?HF~AT"},"start_location":{"lat":47.2001891,"lng":8.797787099999999},"travel_mode":"DRIVING"},{"distance":{"text":"0.3 km","value":323},"duration":{"text":"1 min","value":46},"end_location":{"lat":47.2001585,"lng":8.7934885},"html_instructions":"Turn <b>right</b> to stay on <b>Talstrasse</b>","maneuver":"turn-right","polyline":{"points":"cta_Hqeut@CxI@T@NBXPlABTAHEZELCFGHKNEBGH_@^GFMJKJQRGHCFAJ?R"},"start_location":{"lat":47.19954300000001,"lng":8.7972133},"travel_mode":"DRIVING"},{"distance":{"text":"3 m","value":3},"duration":{"text":"1 min","value":0},"end_location":{"lat":47.2001544,"lng":8.793443},"html_instructions":"Continue straight onto <b>Gwattstrasse</b><div style=\"font-size:0.9em\">Destination will be on the right</div>","maneuver":"straight","polyline":{"points":"_xa_Hintt@@H"},"start_location":{"lat":47.2001585,"lng":8.7934885},"travel_mode":"DRIVING"}],"traffic_speed_entry":[],"via_waypoint":[]},{"distance":{"text":"65.6 km","value":65564},"duration":{"text":"41 mins","value":2455},"end_address":"Hans Albrecht-Strasse 1, 7310 Bad Ragaz, Switzerland","end_location":{"lat":46.9993963,"lng":9.5049976},"start_address":"Gwattstrasse 11, 8808 Pfäffikon, Switzerland","start_location":{"lat":47.2001544,"lng":8.793443},"steps":[{"distance":{"text":"83 m","value":83},"duration":{"text":"1 min","value":10},"end_location":{"lat":47.2000793,"lng":8.792357299999999},"html_instructions":"Head <b>west</b> on <b>Gwattstrasse</b>","polyline":{"points":"}wa_H_ntt@?N@\\@H@N@L?RDlB"},"start_location":{"lat":47.2001544,"lng":8.793443},"travel_mode":"DRIVING"},{"distance":{"text":"0.2 km","value":163},"duration":{"text":"1 min","value":23},"end_location":{"lat":47.2015378,"lng":8.7921323},"html_instructions":"Turn <b>right</b> to stay on <b>Gwattstrasse</b>","maneuver":"turn-right","polyline":{"points":"owa_Hggtt@wBLw@HCBa@Ba@B[DOB"},"start_location":{"lat":47.2000793,"lng":8.792357299999999},"travel_mode":"DRIVING"},{"distance":{"text":"0.3 km","value":318},"duration":{"text":"1 min","value":31},"end_location":{"lat":47.2011066,"lng":8.7950375},"html_instructions":"Turn <b>left</b> onto the ramp to <b>Chur</b>/<wbr/><b>Zürich</b>","maneuver":"ramp-left","polyline":{"points":"s`b_Hyett@ATAF?BAHCFCFEDEBE@C?C?CAGEGGEKAGAI?K@QAQHe@V}@Z}@Pi@\\gANa@J_@Fa@Fi@Bg@?k@Ay@"},"start_location":{"lat":47.2015378,"lng":8.7921323},"travel_mode":"DRIVING"},{"distance":{"text":"0.8 km","value":819},"duration":{"text":"1 min","value":54},"end_location":{"lat":47.2006399,"lng":8.8045787},"html_instructions":"Slight <b>left</b> onto the ramp to <b>San Bernardino</b>/<wbr/><b>Chur</b>/<wbr/><b>Glarus</b>","maneuver":"ramp-left","polyline":{"points":"}}a_H_xtt@C]Ca@G}@Ck@Eq@Eg@?MAYA[AY?[?]@c@@_@@O@QBQ@KBQF[FUHWDSJUP_@P[RWRW`@e@LMHIHILMHMHMHQFSDQDW@Q?SC[CQEIGOEKIIAACEYWGGWYOQQc@I[Ia@AGASCa@?q@@qA@q@DkCF}ADaA?eA"},"start_location":{"lat":47.2011066,"lng":8.7950375},"travel_mode":"DRIVING"},{"distance":{"text":"59.2 km","value":59201},"duration":{"text":"33 mins","value":1995},"end_location":{"lat":47.0324469,"lng":9.4675587},"html_instructions":"Merge onto <b>A3</b><div style=\"font-size:0.9em\">Toll road</div>","maneuver":"merge","polyline":{"points":"_{a_Hssvt@B]NoBLqAVkBFWTsAb@yBPy@VeARs@Tw@d@yA`@gA`@cAd@cA`AoBXe@dAaBhAwAt@aATW|HeJf@k@\\a@`@e@d@i@^c@JKLOV[h@o@l@s@j@q@bB_Cb@{@j@gAb@_ARg@Rg@BETk@^eA`@oA\\qARy@TcA`@eC@IT_BNwAX}C@MPqCb@oHJkBTsDJ{BDy@Dq@Ds@FeADu@NkCVgEDi@B]Dw@PkCVmDPyBDc@B]BYHy@Fo@Dc@Fo@B[Fi@Dc@Jy@Dg@Fi@Ho@L{@Hs@NkAPgAZmBDUBSl@qCxAmHj@aCz@kDJc@No@j@}Bx@mDd@wBh@eCrAyHDW@ID[ToBNwA`@sDPyBD[BYLiBV{DRmFFwDDoBB}B@{A?wCA{@A}AEcCEsA?EGwACk@Gu@Go@CWQyACQCQQ_Aw@iDs@yBAEEOEKw@kBQYU_@Wa@k@aA]e@MOOOm@u@}BwBeJ}G{EqDYYYYoByB{@eAo@y@aAuAyA_Ca@w@[e@m@mAcAsBe@iAg@kAk@}AUq@Ws@a@qA}@}CU}@m@uC[{Ak@sDM}@Iq@AEUoBWiCMcBQiCEcAGmBGyBAoB?_@?s@?Y@sCDoBBu@Be@?GD_AFeBLqBJ}ALmBPmBTeBVqBn@eEb@gCh@gCh@eCjA{Ev@qCv@kC`@oA`AuCbB_Fb@sAL_@DOLg@\\mAZmAd@cC^_CPsAPoAH{@NcBLgBBYBWDw@p@mIDi@B[H{@\\iD\\iD`@wDj@yEb@kDl@cFNiANiABWVkBlBgND[RuAl@uDVeBn@eEd@sC^yBVwAx@wEr@yDbCsMVuAVmAj@iCd@uB\\sA^wAl@uBrBeH`AeDx@uCt@uCd@oB@A`AgEd@eCFWReAZoBNcAZyBHk@J}@\\{CR}BNqB?KFw@NcCJwCHoBBwABgADmC?uA@eC?iDC_DAcBGkEC{AEgCMiFUqJQiHOeH[kNMgFMoFM{Fy@o]EaB_@wNCu@Am@Aq@KuECaB?ICcAAyACcE?wD?cA@_@?q@@eCD{FH{FFkC@i@LkDN{DLiCPaDLoBFcAL}AHoAN_BJmAFw@J_AVmCHu@NwAJw@Hw@d@sDFc@D_@DQFi@`@iCZwB`@eCBKh@uCDYj@wCj@qC\\}AlAmFh@uBb@iB~AyFfAeDbAeDr@sBlAiD|A}DvAgDTi@HOLYTg@Ti@Vg@BI~CoGfAsBVg@Xe@tAgCpAyB`@o@rBeDr@iAz@uAnAoB`I}L|IeNbA}Af@w@`CqDfBqCbCwD|BoD~BmD~C}E|AcCdCyDPWFKbBkCnCeEnByCnB{CxA}BdA_BXe@NUHMb@o@tBcDvBgDhEwG~AeCbA}AjDoFn@cA^k@d@s@NUv@oAd@u@l@}@dAaBZe@Va@PYfAaBXc@T]T]Zi@LQj@{@T_@RYl@}@tAyB|@sAx@qAdAcBh@y@bBkCNShAgBt@iALU^i@f@w@BEHMHK`@o@z@qA`@k@hAeBzA}Bb@q@|AaCxA{B|@wA^k@Zc@PYFIXc@j@y@hA_Bv@gApCmDbBoBrAwAjAmAfAcAhAgAhAcAbAy@NK\\WXUDC^WXUd@[VSXQb@[d@]TOTOLKn@c@|ByANKd@[j@]BAd@]^YBAJIbE}CbB}A|AuAdCeCVYVYZ]\\]p@y@hB}BhB_Cf@q@@AjAeBDGXc@Xc@j@}@\\m@l@cAj@aAh@eATa@j@eAd@aAf@gAVi@JUJU`@{@Rg@Pc@Re@b@qARi@Ng@J_@Rm@\\sAh@yBFSDUJi@Hg@Ha@BKDWBOHo@L{@D]Fm@Fo@N{AB_@BO@OHgADq@Bi@FeAB_A@KBo@DaCDcD@aC?yACsCCkCEeEAOCyG?yB?sD@wA?Y@kA@yA@uA?q@BqA@wAByBFuDDuEDcCB{BDoDDaC@uA@g@?S@qAFeE?[JwGDgCHoDHwCJmC@MFuAHcBFqADw@PcCJ}AFw@Dk@R_CJcA@SVcCNyANsAPiBNyAN_BB_@B_@HwADq@H{AF}A?CDyABo@@o@B}ABuA@o@BmB?o@BsB@sB?OBkBBmB@iA?ABe@BwAFkB@[BYBaAFkALmB?AHkAF}@BUB]BU@UDc@Dc@De@@C@QBW@CD_@LiAFo@DYNmANeAJw@F]F]`@iCJo@XeBToAPiAReARiAF_@ToAFc@Hc@F_@DSDUf@kDhAwGLq@DWl@kDd@uCBQToALo@PaATqAT}ALw@Jq@d@eDBYJs@h@kE@CLqAJmADm@Du@PyC@MPmCNaCNaC@KJ{ADg@LeBFy@^mE`@uEFs@Fm@Hw@Hq@^uDXgCDc@?CJ{AH_BDm@@Ih@mHBSHcA^mE@GFo@@Ob@kGDm@@M^wD\\qDLoAl@qFBUDW?ABUBQ@GvAiMbAuIRuAbAgHBUHk@T}AHc@~@cGDURsA@E@Gb@mCRsA@?BUnAgHf@gC@GJe@rAcH@AJm@@AJm@Je@@KLo@`@sBtBwKDSF[RgAf@gCZ_BRcAHc@hC_N?C@CLo@t@yDt@uDf@kCF[X_Bn@qDVeBVcBJq@@C\\kC@EFs@TgCJwAJoBDwAB_B@s@?s@@o@Ay@A}DI{BEmAImAGs@AUScCEa@AEAK_@uCIw@Kk@]mBm@aCOm@Mg@AGK_@W{@c@yAc@{AiAsD]qAMk@I[CIGWAIEOCQCOG[Im@Gc@Ec@KeA?AAUCg@E}@?QAs@?q@?U?U@a@@u@?MBw@B{@Dg@HqAHcAFe@BUJsABQBQ?CTiBLyALqADe@H_AFcAFcABa@DkADu@HyDBaADsBDwABkA?GDo@D{@H{AJqAHeAFk@Da@Fe@D]@GF]BOHm@ReA\\{AVaAT{@j@sBl@yBFQh@kBPy@Ns@VsAf@mC`@gCl@mEp@aIHkADs@Du@Ds@Bu@Bs@Du@@_@?O@E?u@@S?[?I?MBcA?k@@gA?e@?c@?EAgBEkE?IEyA?ECq@?AC_AE{@Cc@IeB?ACe@GuAIyAEcACm@C{@AeA?W?M?y@?kA?[?KBcABcAPwEBk@HsB?K?M@SBsA?q@@yAAa@AcBE{AAy@CkBEkB?ACcBA_BA}@?iA?uB@u@@eBFsB?U@KBeALgCDw@HmA@UPoBNwA@GFg@Hs@Hk@F_@@KD[DQ@MDWBMDWBKDWBMFW@KFWBMDUDODUBMFU@KFWBEF]BMFUBMFUBMDSDODUBG?EFSBMFUBMDWDKDUBMFUBMDUBMDUBMDUBMDWBMFY@IDUBMDW@MDUBOBUBMBWBMFcA?Gl@mGPmCFeDBuB@sA?eA?k@Ae@?g@Ai@?g@Ag@Ag@?QASA_@?GAi@AAAe@Ag@Cg@Cg@Cg@Ci@Ci@Ce@Eg@Cg@Ee@Eg@Eg@Ee@Ee@Ee@Gk@Ea@Ge@Ig@Gg@Ie@Ie@I_@AKIa@Oq@Mg@ESK[K_@GQGSQg@Qe@Wo@MYO[m@kA[g@e@u@S[EEa@i@UYUYUYSWUYW[OQGISYSWQWU_@S[Q[S_@MYUe@O[Oa@O]k@kB[mAUaAUiAKq@G[MmAIq@CUKcBGcBCeB?I?aBDkBDuADc@De@D_AFu@N}APmABQ^cCVaB`@qB^iBp@wCdAiEVkA\\yAJa@Jc@Jc@Jg@^eBTkAX{ARgABMJm@j@eETkBBMB[PcBL}A@MJgBFsAJwFC{HAaE?A?cE@aCBqBFoC@UFuBJuB@U?EJ_BHeAb@mHL_CDs@@Q@U?KDs@D}@Bk@JcDBqA@_A@gD?U?A?KAg@CsBCgAEuAKkBS_CCOQ}A]yBk@qC]uAa@{Aw@_CEIo@}Ao@uAKUi@_AS_@Q]Q[c@w@s@sAWc@]s@c@}@O_@c@cAM]O_@Ma@M[M_@[cA[eAMg@K_@Kc@I]Kg@UiAOy@AKIc@G_@Ge@QqAMiAEc@MkACe@Ei@KgBIuBAWAa@Ac@AqAAqB@i@@uADeCJmDBu@?ELiEH}CDiBFcD?a@?_@AmDGsEAg@?AAYGqBQgDMcBEw@SqBO_BI}@a@{DEg@OwACO?CKeAK_AC]C[IaAGiA?EAMEq@ACGsACmACw@?G?_@C{A?aCDyDLyC@k@NaC?GZkDV{BRwAXaBRmATgA|@sDbAiDpAmDHSx@mBx@_BHObBsCd@q@zAmBt@}@Z[Z]@?`A_ANOFE^Y\\[HGxAcAlBkAl@[p@]rAm@nAe@hFcBzAi@tAi@bBs@l@Yz@g@`Ak@v@g@fAu@h@a@LKNMt@m@f@c@\\[\\]POn@s@p@u@~@eAzAqBvAmBhBeCbByBHKz@aAf@i@h@m@|@{@j@c@ROp@i@XQTODEFCbAk@b@WfAi@~@e@~@a@hDyA|CwAj@Y|@i@z@g@|@m@pB{ANMBCXUZWFGPQZY`@a@XWBEVWv@{@`AiAHKbAmAfB_CfCoDh@s@|DuFfCoDdBcCt@cAt@eAJONQhBiC|AwBjAaBfIiLvAsBbAsArEqGb@m@pJ{MNSNUjAaB`B{BfA_B~BcDn@}@lAcBJOhA}AT]hD{ERWXa@Zc@t@cAh@w@hA_Bj@{@tByCrB}Cz@sA`CyDhAiBd@y@b@u@^s@bAiBlEqIbAqBz@oBjAiCbB}Dh@kAv@uBXq@p@eB~@aC~@iCjAaDHYHUd@qAfB}ElBkFx@qB|CqIz@cC^cAFQRk@BGlAeDxAcEjAcDtAyDxAcE|BoGpAoDx@}B~AsE|BuGt@{BTk@nDcKvEuMZ}@Rk@Rk@|@cCfA_D`@mA\\eANi@HWHY\\oALi@ZsALq@Jk@VuARwAHk@PsA@Q?AD]\\sD^cGP{BFq@Fs@?Ab@uCnAcHHa@J_@`BoFXq@j@{AVm@f@eAh@gAv@sA^m@fCoDJMBARUh@k@p@s@FE\\Y\\Y~DiCf@_@j@a@\\W@AVQlH_FdF_EpAeAx@u@RSJIjAkAtB}Bd@o@f@i@jCcE~AgCTa@v@{An@qA@CVo@p@}Af@qAfA}CTy@BGDQBKDODKFWL]l@yB\\{AViAVmATwA\\cBR_BT{APoAN_BNmA`@uFR{DDoADm@BqA?a@DoE?sCC{CGyCE}@GsDCq@?MCs@IcK?}A@m@?C@s@@c@Bo@Dw@HaA@EHuAHk@@GD[@I@ID[Ly@Ny@DSRcAH]b@cBR{@\\iAFSJYJYJSp@{A^u@JQXc@FOx@oAj@u@fAsA`BgBnAmA`A{@~IsIp@s@"},"start_location":{"lat":47.2006399,"lng":8.8045787},"travel_mode":"DRIVING"},{"distance":{"text":"2.2 km","value":2206},"duration":{"text":"1 min","value":73},"end_location":{"lat":47.0190814,"lng":9.4890335},"html_instructions":"Continue onto <b>A13</b><div style=\"font-size:0.9em\">Toll road</div>","polyline":{"points":"y_a~Ggcxx@^e@b@g@r@aA@Av@iABCT]@Al@}@bAcBr@qA|@cBbAkBrCuFTa@JSFKZm@|Vof@h[ym@Ve@pB{D|BqEFMHO"},"start_location":{"lat":47.0324469,"lng":9.4675587},"travel_mode":"DRIVING"},{"distance":{"text":"0.4 km","value":439},"duration":{"text":"1 min","value":28},"end_location":{"lat":47.0165044,"lng":9.4934142},"html_instructions":"Take exit <b>12-Bad Ragaz</b> toward <b>Bad Ragaz</b>/<wbr/><b>Pfäfers</b>/<wbr/><b>Valens</b>","maneuver":"ramp-right","polyline":{"points":"gl~}Gmi|x@f@s@n@kA\\s@l@qADIbAqBnAiCDIjB_Ef@kA@?h@iA"},"start_location":{"lat":47.0190814,"lng":9.4890335},"travel_mode":"DRIVING"},{"distance":{"text":"0.3 km","value":287},"duration":{"text":"1 min","value":28},"end_location":{"lat":47.0142715,"lng":9.4936698},"html_instructions":"Turn <b>right</b> onto <b>Rheinaustrasse</b>","maneuver":"turn-right","polyline":{"points":"c|}}Gyd}x@RVJNLLJNLNTX`@VZDh@Gf@]`@k@DG@A\\c@\\YBCj@[TIb@@"},"start_location":{"lat":47.0165044,"lng":9.4934142},"travel_mode":"DRIVING"},{"distance":{"text":"1.9 km","value":1875},"duration":{"text":"3 mins","value":180},"end_location":{"lat":47.0006655,"lng":9.5063195},"html_instructions":"At the roundabout, continue straight onto <b>Rheinaustrasse</b>/<wbr/><b>Route 13</b>/<wbr/><b>Route 3</b><div style=\"font-size:0.9em\">Continue to follow Route 13/<wbr/>Route 3</div>","maneuver":"roundabout-right","polyline":{"points":"en}}Gmf}x@?@@@@@@@@@@??@@?@?@@@?@?@A@?@?@A@??A@A@A@A?A@A?A?A@??A?A?A?A@AZMb@IVCVEVGf@KJGJIJCl@MfASdCg@~@SxAYPEv@STGn@Wl@e@bAy@bA}@RKXU@A`@g@Zs@DGBGDGz@gBP[l@oAHMj@aAdAuARUTUl@i@n@k@d@SLGlAi@dCy@PG|@Wd@Ut@g@n@c@PIjA_@^Q^Wd@u@h@mAb@gAFMn@wAN_@?AN[pA_DRg@fAeCPc@h@sAz@oBrAeD"},"start_location":{"lat":47.0142715,"lng":9.4936698},"travel_mode":"DRIVING"},{"distance":{"text":"0.2 km","value":173},"duration":{"text":"1 min","value":33},"end_location":{"lat":46.9993963,"lng":9.5049976},"html_instructions":"Turn <b>right</b> onto <b>Hans Albrecht-Strasse</b><div style=\"font-size:0.9em\">Destination will be on the right</div>","maneuver":"turn-right","polyline":{"points":"eyz}Gou_y@v@v@dBpBl@j@p@p@"},"start_location":{"lat":47.0006655,"lng":9.5063195},"travel_mode":"DRIVING"}],"traffic_speed_entry":[],"via_waypoint":[]}]},"alternatives":[]}} {
+  "service": "expense-tracker"
+}
+2025-08-13 07:33:41 [HTTP]: GET /api/v1/expenses/689c23b528442f6b1467a9af [32m200[0m 15.960ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:33:41 [HTTP]: GET /api/v1/expenses/689c23b528442f6b1467a9af [32m304[0m 9.289ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:07 [HTTP]: GET /api/v1/settings [32m304[0m 6.368ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:07 [HTTP]: GET /api/v1/expenses/689c23b528442f6b1467a9af [32m304[0m 11.077ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:07 [HTTP]: GET /api/v1/settings [32m304[0m 5.267ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:07 [HTTP]: GET /api/v1/expenses/689c23b528442f6b1467a9af [32m304[0m 9.008ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:31 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m200[0m 12.375ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:31 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 15.348ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:31 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m200[0m 18.017ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:31 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 9.087ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:41 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:41 [HTTP]: GET /api/v1/settings/key/costPerKilometer [33m404[0m 6.710ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:41 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 9.187ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:41 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:41 [HTTP]: GET /api/v1/settings/key/costPerKilometer [33m404[0m 6.626ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:41 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 7.946ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:47 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Golf+Club+ [32m304[0m 88.919ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:47 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Golf+Club+Bad [32m200[0m 56.380ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:48 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Golf+Club+Bad+ [32m304[0m 58.835ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:49 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Golf+Club+Bad+Ragaz [32m200[0m 53.218ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:51 [HTTP]: GET /api/v1/maps/places/details/ChIJ98sAHo7LhEcRuRm9prv76Kk [32m304[0m 115.355ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:37:52 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Golf+Club+Bad+Ragaz,+Hans+Albrecht-Strasse,+Bad+Ragaz,+Switzerland [32m304[0m 57.119ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:38:03 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Valex+Capital+AG [32m200[0m 145.000ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:38:06 [HTTP]: GET /api/v1/maps/places/details/ChIJ1617dbK2mkcRqaac5wrGr-c [32m200[0m 107.809ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:38:06 [HTTP]: GET /api/v1/maps/places/autocomplete?input=Valex+Capital+AG,+Talstrasse,+Pf%C3%A4ffikon,+Switzerland [32m200[0m 48.382ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:38:20 [HTTP]: POST /api/v1/maps/distance [32m200[0m 365.220ms {"originPlaceId":"ChIJ98sAHo7LhEcRuRm9prv76Kk","destinationPlaceId":"ChIJ1617dbK2mkcRqaac5wrGr-c"} {
+  "service": "expense-tracker"
+}
+2025-08-13 07:38:38 [ERROR]: Error enhancing note with Gemini AI: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"model":"gemini-1.5-pro","location":"global"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"43s"}] {
+  "service": "expense-tracker",
+  "originalNote": "Back to the office after lunch with client X",
+  "error": "Error: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\",\"quotaId\":\"GenerateContentInputTokensPerModelPerMinute-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"model\":\"gemini-1.5-pro\",\"location\":\"global\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}}]},{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"43s\"}]\n    at makeRequest (file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/node_modules/@google/generative-ai/dist/index.mjs:210:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async generateContent (file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/node_modules/@google/generative-ai/dist/index.mjs:534:22)\n    at async enhanceExpenseNotes (file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/expense.controller.js:43:20)\n    at async file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/expense.controller.js:596:27"
+}
+2025-08-13 07:38:38 [HTTP]: POST /api/v1/expenses/enhance-notes [32m200[0m 110.422ms {"notes":"Back to the office after lunch with client X","startingPoint":"Golf Club Bad Ragaz, Hans Albrecht-Strasse, Bad Ragaz, Switzerland","destinationPoint":"Valex Capital AG, Talstrasse, Pfäffikon, Switzerland","distance":66.651,"totalCost":46.655699999999996,"journeyDate":"2025-08-13","categoryId":"6894e3fd70028da2aef7a690"} {
+  "service": "expense-tracker"
+}
+2025-08-13 07:38:44 [ERROR]: Error enhancing note with Gemini AI: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"38s"}] {
+  "service": "expense-tracker",
+  "originalNote": "{\"original\":\"Back to the office after lunch with client X.\",\"enhanced\":\"Back to the office after lunch with client X\"}",
+  "error": "Error: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\",\"quotaId\":\"GenerateContentInputTokensPerModelPerMinute-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}}]},{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"38s\"}]\n    at makeRequest (file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/node_modules/@google/generative-ai/dist/index.mjs:210:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async generateContent (file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/node_modules/@google/generative-ai/dist/index.mjs:534:22)\n    at async enhanceExpenseNotes (file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/expense.controller.js:43:20)\n    at async file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/expense.controller.js:122:31"
+}
+2025-08-13 07:38:44 [HTTP]: POST /api/v1/expenses [32m201[0m 104.705ms {"category":"6894e3fd70028da2aef7a690","journeyDate":"2025-08-12","startingPoint":"Golf Club Bad Ragaz, Hans Albrecht-Strasse, Bad Ragaz, Switzerland","destinationPoint":"Valex Capital AG, Talstrasse, Pfäffikon, Switzerland","startingPointPlaceId":"ChIJ98sAHo7LhEcRuRm9prv76Kk","destinationPointPlaceId":"ChIJ1617dbK2mkcRqaac5wrGr-c","waypoints":[],"optimizeWaypoints":false,"distance":66.651,"costPerKm":0.7,"totalCost":46.655699999999996,"notes":"{\"original\":\"Back to the office after lunch with client X.\",\"enhanced\":\"Back to the office after lunch with client X\"}","routeSnapshot":{"distanceText":"66.7 km","distanceValue":66.651,"durationText":"45 mins","durationValue":2675,"origin":{"placeId":"ChIJ98sAHo7LhEcRuRm9prv76Kk","name":"Golf Club Bad Ragaz","formattedAddress":"Hans Albrecht-Strasse 1, 7310 Bad Ragaz, Switzerland","location":{"lat":46.99940950000001,"lng":9.5049733}},"destination":{"placeId":"ChIJ1617dbK2mkcRqaac5wrGr-c","name":"Valex Capital AG","formattedAddress":"Talstrasse 37, 8808 Pfäffikon, Switzerland","location":{"lat":47.1998544,"lng":8.797829799999999}},"route":{"overview_polyline":{"points":"gqz}Ggm_y@}FgGkElKeGpNmAtCeAlAmD~AkD|AgG~BgC`CiDtF}CxFuDxCkDxAaM~BaEl@GGQ@KRaB`AaAbAg@r@qAd@aBgAqCmDaDhKsCjHwIdRw[dn@e]zp@aKrQgFzG}GvGeGtFiCxCmChEiChGwAlFmAjIc@|GBlTVhN?fN]xKgBzPwDxQ_E`M}CzGoEtHiK|LeTnOoI|FsClCgDrE_FzJyDjNsA`JaBxS{BrNqGjSwd@fqAwa@fiAiIrRcIzOySn\\iw@tgAeS~XyP~UkOxRcCrBcGfEwGhDaOhHqGxFgQxTiGrFsExCsKnE{IdDgEzBwGfFoIvKeD`HsBbG{AbGyA~IcArLUzIRdNrBnVpA~QPfKe@zUg@hRHlHb@hJ`AxHhBtI`EhL|I~PlChIxBpOZhK[dSYbFs@nNY~RDjSg@jPuBtP}Lpk@sAbNKzD\\hL~@pGhBxGvBtErH~JpD|GrAjEdChOl@fKZzMC|CwA`VOlAq@bE{@vEy@zDwBdLuApMm@`MEzKZlRSfQ]zNv@|X?vP_@jO{ArPeCtNgEzQo@jEoApOmAdWqAdJiBdJ_@tDHhH|ApI^hIUxDs@|DeBtEkB`FiAzEkBhRQhIj@|JDdD_ApIqFxOeHtUaAnE{AfQaAjLqA`FqAtCcBhFi@pDWvHYlZc@~KgDzZ{AdGeDtHoApDmB~J}@tMm@vMNdGhCvPLrHy@~MRtJ`@nC`AlGVjIm@bIkEj\\_Cb\\g@~TIrZc@~KsAlO}B~Xs@|Pq@hf@o@zm@Pf]A~Pi@lJ{AzLkCbLoDrJ_FvJyIbN}IpKyKvJeCjBqOnKwItGiGjGoGzHsF`IoPfW_JhNwQ`YcgAbcBwm@v_A_OfVuDhHiDlHuHhReHpUyD|OkEhV_CzQyCx_@aA|^@lVTbQrE|qBp@be@_@|WcBhTcDxRqLlc@iGnYwHrc@wIno@cDxZiCzY{B|K}B`HyDnLaEdPyChRiAbN]pSNfIn@vJv@zGvBrL~CrKzCxHvF~J`FrGtRrOlE|DxEnHdCdId@jCt@dKLtKKdMi@bNkCzWcGtYiEzQyCxQgC`XgEdt@}@xKeBxJuDrKuEjHmEjFuOzQoEdHgChG{AhF}AnIaApKa@zKGlJkAbQR~I]xBo@Hw@GCj@Q|IAdAIdKC@EHAJHRNb@H|DKrAc@N_@n@L~@`ANjDUj@WTuBXcEdBsC^kBAyAY}IDg@r@u@rAeBMiCCyKwBo@Gm@AU"},"bounds":{"northeast":{"lat":47.2024075,"lng":9.5063195},"southwest":{"lat":46.9993963,"lng":8.7882055}},"legs":[{"distance":{"text":"66.7 km","value":66652},"duration":{"text":"45 mins","value":2676},"end_address":"Talstrasse 37, 8808 Pfäffikon, Switzerland","end_location":{"lat":47.2001891,"lng":8.797787099999999},"start_address":"Hans Albrecht-Strasse 1, 7310 Bad Ragaz, Switzerland","start_location":{"lat":46.9993963,"lng":9.5049976},"steps":[{"distance":{"text":"0.2 km","value":173},"duration":{"text":"1 min","value":27},"end_location":{"lat":47.0006655,"lng":9.5063195},"html_instructions":"Head <b>northeast</b> on <b>Hans Albrecht-Strasse</b> toward <b>Maienfelderstrasse</b>/<wbr/><b>Route 13</b>/<wbr/><b>Route 3</b>","polyline":{"points":"gqz}Ggm_y@q@q@m@k@eBqBw@w@"},"start_location":{"lat":46.9993963,"lng":9.5049976},"travel_mode":"DRIVING"},{"distance":{"text":"1.8 km","value":1845},"duration":{"text":"3 mins","value":193},"end_location":{"lat":47.0140856,"lng":9.4938734},"html_instructions":"Turn <b>left</b> onto <b>Maienfelderstrasse</b>/<wbr/><b>Route 13</b>/<wbr/><b>Route 3</b><div style=\"font-size:0.9em\">Continue to follow Route 13/<wbr/>Route 3</div>","maneuver":"turn-left","polyline":{"points":"eyz}Gou_y@sAdD{@nBi@rAQb@gAdCSf@qA~COZ?@O^o@vAGLc@fAi@lAe@t@_@V_@PkA^QHo@b@u@f@e@T}@VQFeCx@mAh@MFe@Ro@j@m@h@UTSTeAtAk@`AILm@nAQZ{@fBEFCFEF[r@a@f@A@YTSJcA|@cAx@m@d@o@VUFw@RQDyAX_AReCf@gARm@LKBMA_APIBu@Lo@JO@"},"start_location":{"lat":47.0006655,"lng":9.5063195},"travel_mode":"DRIVING"},{"distance":{"text":"0.4 km","value":379},"duration":{"text":"1 min","value":35},"end_location":{"lat":47.0169406,"lng":9.4939315},"html_instructions":"At the roundabout, continue straight onto <b>Rheinaustrasse</b>","maneuver":"roundabout-right","polyline":{"points":"am}}Gug}x@?A?AA??AA??AA??AA??AA?A??AA?A?A?A?A?A@A?A@A??@A@A@?@A??@?@A??@?@?@A??@SNKJUHk@ZCB]X]b@A@EFa@j@g@\\i@F[Ea@WUYMOKOMMKOSWc@i@GIOQ[a@"},"start_location":{"lat":47.0140856,"lng":9.4938734},"travel_mode":"DRIVING"},{"distance":{"text":"0.5 km","value":461},"duration":{"text":"1 min","value":26},"end_location":{"lat":47.0192789,"lng":9.488921099999999},"html_instructions":"Turn <b>left</b> onto the ramp to <b>St.Gallen</b>/<wbr/><b>St.Margrethen</b>/<wbr/><b>Zürich</b>/<wbr/><b>Sargans</b>/<wbr/><b>Mels</b>","maneuver":"ramp-left","polyline":{"points":"{~}}Gah}x@Of@CHWv@AF{@rCg@|AM`@ABCDADENSh@ADa@dAi@tAe@bAABk@rAg@fAg@jA_@fA"},"start_location":{"lat":47.0169406,"lng":9.4939315},"travel_mode":"DRIVING"},{"distance":{"text":"2.5 km","value":2451},"duration":{"text":"1 min","value":82},"end_location":{"lat":47.0345287,"lng":9.4657281},"html_instructions":"Merge onto <b>A13</b><div style=\"font-size:0.9em\">Toll road</div>","maneuver":"merge","polyline":{"points":"om~}Gwh|x@]p@iBrDq@jAS^Wf@o@jA[n@ILKRwB`E{AxCKRo@pAoAdCkAvBcB~CuAlCcBdD_AjBw@vAaBdDCDaAlBaAjBu@xAiAxB_AjBsAfC_B~CeApB{AtC]n@GJQZuAtCw@vAy@zAwAnCeAjBs@jA}@tA?@Y`@a@j@aArAiBxBoAnAq@n@iBhBq@l@IHOLo@h@"},"start_location":{"lat":47.0192789,"lng":9.488921099999999},"travel_mode":"DRIVING"},{"distance":{"text":"59.1 km","value":59108},"duration":{"text":"34 mins","value":2042},"end_location":{"lat":47.2008792,"lng":8.8032059},"html_instructions":"Keep <b>left</b> to continue on <b>A3</b><div style=\"font-size:0.9em\">Toll road</div>","maneuver":"keep-left","polyline":{"points":"yla~Gywwx@{DrDWZqB|BcAtAiArBU`@u@hBk@rAQh@GP?Bc@vAk@~BO`AERYdB]nCC^Gl@OzBGrACfAC~AAp@AbABbBFtFBr@?@Bx@FzCFhCBhCDzCApBAtDAb@CpAChAI|BK~BQvB]dDYnC]lCk@pDg@fCi@zBy@bDc@zAk@jBw@`Cw@vBu@nBCHWf@kAxBgAtB}@zAA@gA`B?@sAbBcArAo@t@GFEDeCnCm@n@cCpBIFmHlFgBfASLeAr@OLWNiH~EGDWREBQNu@p@}@z@MNCDMJwAjB}@tA{@vAy@|Aw@bBq@`Bq@nBQf@_AhDIXCLERER[xAs@fES`BIr@ABWxCShCWxD]zDCTCVAJOtAU|AWtAYzAYrAOl@Ol@Of@Of@Mf@eAbDe@pAwA`EA@Sj@{AdEcJpWWp@kCrHiA|Co@fBmAnDq@jBw@vBeAxCe@pAa@dAu@xBgAtCyAhE{@~BgBzESj@cBxEi@tAu@tBy@xBi@tA{@|BiBbFkA|C]bAi@|AkChHwArDUh@aBbEmCjGcAxBeAxBw@|AkBrDyAnCcBxCq@jAiBxCoApBkBtCgBjC_AtAu@dASZkCtDu@dA[`@Yb@aDnE[b@kBhCwCdEgIbLa@j@yCfEiBhCmD|EyCdEeClDkCpDeBbC_BzBy@hAuAnB}AvBk@v@Yb@[`@u@dAY`@mMtQs@`AwMvP_@ZcBvAa@\\g@^oCnBi@Xq@^YP_Bx@kB|@IBoBx@}@`@qDbBa@R}@h@_@TWPWPy@l@IHUNKLo@h@o@n@s@v@a@b@m@r@cApAoBlCqBnCuAfBoBzBKLOP]ZWVc@`@_@ZYXC@aBrAYR_@Xw@f@aBbA{BhAyB~@aA\\{Af@cBj@wAf@kBt@s@Zy@^s@^OJiAn@}@l@_@T?@uAbAk@h@YTEDWVML}@~@c@f@c@h@]d@}@hAaA|A]h@gArBeAzBAFUh@Qd@Sh@Ul@w@dCSp@[hAYnAQv@GZa@pB]~BQpA[fCUrCGv@I~AG|AG|ACjBAr@?X?rA@hA@~@?NBbAFfBBp@Bh@TrDFv@ZzC@LZdDRlBBZFl@NzAR|BDf@Bf@Dl@Dh@NnD@ND`B@h@@J?R@N@xB@`A?b@?xAA^?^?^GfCIrCQ`FKfCK|CIfDEzC@dDDzA?Z@N?JDnBBh@?@Db@Bb@Dh@HnAD`@Ff@@PJ~@PhADZHh@BLD\\H`@Hd@FXHb@XlAVbAJ^XfANb@ZbAJXPh@^`A^z@\\v@d@bAb@x@Vd@^n@NXb@v@jC`FZv@d@jAZ|@Tt@t@hCr@nDZrBVpBPzBLxBHzB@~A@r@@p@ClGQpFGrAEt@APARC^AREr@?@C\\SfEMtBObDALAXKxEGhEC`EAlC?J?f@?D?D@h@B~D@rEAvCCdA?B?H?DA\\M`DQxBYzCEb@Ip@Ir@CLGb@[zBY`BSnAm@zCw@nDK`@K`@WhACJGTuBtI?@ENe@nBQz@[dBWrA_@vBYbB[jCGr@IlACR?@A\\E|@E`A?PCt@Ap@?dBDlBPlDDf@Ht@VpBP`AJf@\\~Ab@|Af@zAN^P`@LZP\\P^PZBDLVRZTZPZTXRXTXPTTXVZRVTXRVNP@@^h@FHTZZd@Vb@R^T`@Rd@Rb@Tj@Rf@@FL^Nb@DNFRDPJ`@Np@BJNn@Hh@DPDT\\tBl@rE^lFBj@BZDpAPfEB`CBnB@`@?`@?X?J?L?FA^?JAR[rI{@lKGd@Gf@QfAId@Kr@I`@Oz@CNERCNKb@ETCLG^A?UlAKb@ADCNCLGVCLI`@GVCLEVELG\\Kf@Ib@Ib@GVCRGXCJIj@Kj@Mv@Kr@WxBMpAGr@Gp@Er@OxBEp@IbBAVC\\Cz@AVAf@CjA?\\Ad@?bAAfA@lA?L?b@?|@@fA@b@BdADxBBp@FnD@`@@xA?zB?lA?NCbAEzAIfBAJQ~DIvC?h@AX?P?T?\\?X?L?Z@t@@z@Bj@@b@@`@FlBF`BF~AHpB@Z@Z@`@@P@`@?R@f@?J?D?D@jA@d@?~A?~@?`@Ab@AhA?RAR?P?FEpD?DGrCQ~D]dF]vDOjAOhACLMbA[tBEVYzAMp@Qv@WnASx@i@zBa@fBSz@U~@a@dBQ|@I\\GZGb@Mv@QrAIh@SnBa@jFOjCKpBQ~D?PIlCKhB?HOdCIx@E^ADMnAQjAG\\?DEV[fB[xA_@jB[zAQbAQlAEn@CXC\\AN?JAXA|@?p@B^Bh@Fx@@RDVFf@@BNv@XtAVdAHd@Fb@Hr@B\\Bl@Dr@?b@@VAt@Cx@Ep@Ej@E`@E`@SnAKd@Md@IZCFOb@Qb@GLKXQ`@O^Qd@O`@O^Qd@O`@Qb@ADCFKZGNGRMf@Kb@Ib@?BIf@ADE`@Gf@Gf@Gh@Gf@Gh@Gh@Gd@Gj@Gd@Gl@Eb@Ef@Cn@Ch@Ah@Cf@AX?PAh@Af@CpAAf@@J?v@Bf@Bf@BTNtBH|@B^DrA?J@HAz@K~BATOlAa@lBSt@m@hBa@bA[`As@jBYt@GN[`AUx@IZ]nAADa@rAc@vAGPQf@Sn@Sl@Yz@KZSl@CHK`@Sr@Qj@CHELCLQv@EPCTE\\MpAYpDMzAIz@AHOxAGt@APE^C`@CPGt@KpAIjAKjAIv@Oz@On@]hASj@IRMXi@lAOX?@MXi@rAIVGVIVGZGTKd@Kn@Gj@In@IhAEdACfAC~AEtEC`B?hAGjEArACtC?BAp@CfACdACn@ARIzAA@Cf@EfASpBUzBGr@Ip@Ip@EXCXAHCXQ`B_@dDC\\ADCNE^O`AIh@Kj@ENIZQj@K`@KVK\\Uj@c@`AEL]p@Uh@S`@Qd@KTIPITIVM\\ITITK\\CHGTOp@GTMj@GXGTY|AUfBMfAE`@El@?DGl@?DAJANAVKfBALCd@AZAVEt@ALALAVEr@Cb@?NCZAVEr@?DCl@A\\AVARA^?DAd@?D?d@@d@Bl@Bd@Fr@Ht@Lx@Jt@FZf@`C\\fBLfAHbA@FDz@Bh@BfB?DAX?Z?`@E`AABEr@Gx@QbCMxBCl@Ad@?l@?f@?h@@h@HxADl@B\\F`@D`@@FDP@J@JBJBL@HFZ@H@DFT@JFV@HFZ@HF\\@JDX@H@N@N@HDZ@JB`@Bp@B`@?R@F?P?Z?H?d@?H?T?HA\\?LAFA^C^ALAXCNCXAJE`@ALERAHCRANYfBSvAUxAWlBIh@Ip@Kp@?@AFGf@K|@MbAGb@OpAM`AEh@MdAKjAEd@C\\E\\M|AQxBGdAEf@IjAG`AAJGnAGrACj@EbAIrBExACjACjAE~CAh@AjAArBAl@?tCA`E?rCAjCAjA?LCp@Ap@A^EdACt@C^I|AC`@APItAGv@CVIz@WnCGd@QbBWbCO`BMvAGn@O~Ac@nGK`BIxAGrAGrACl@EhAEdAGpBAJAv@EnBCr@Ab@?ZCv@?TAt@CzAC|ACnCArAAbAEnDCxAC|AC`CEdCEzDErDEfCCzAAn@C`CCfCA~AAp@?l@?f@An@?H?b@?n@?l@?H?`@?d@?H?f@?@@j@@|A?R?V@\\BxDBvDB|C@Z?X?\\?zD?vD?t@?HCv@OnDQlCEh@ADG~@UvBa@vC[jBMt@Kh@Mh@Ml@e@nBI\\Sn@Ql@AHuAzDmAxCIRKTe@`AsAnCyAnCq@hA{@xAeA`BYd@U\\mAdBQVUZ[b@s@|@g@p@m@t@q@v@_@b@_BdBEDgBhBiBbB{AnAkBxA[T]XkAz@sCnB_@VkAz@UNy@j@[RsA|@qA|@e@Z[T]X_@V[TURsAbAqAbAiD`D_BhBoBzB_D~D{AtBgBjCA@m@|@Y`@EHSXy@lAyCtEsClEw@lA{A`CW`@eA`Bm@~@s@hAgAbBU^o@~@QVm@~@i@z@o@`AWb@SXmAjBcBjC_@h@?@UZU^U^o@`Ao@`AW^W`@aAzAW^CDSZW^W`@SZABo@`AU\\gAbBq@dAoBzCgEzGaCpDiDlFmBpC_BbCgBrCYb@Yd@uAxBW\\}BlDcEnGoCfEs@hAYb@ABs@fAY`@_FrHqFlImJ~NmC`ESZEFsCjEoFjIkIjMmEbHiAhBmEnHYh@Wd@mBpDa@x@MVeBpDUh@Wf@Uh@EHO\\yC`HeC~Gw@~BeA`DaCbIe@jB]rAY|@eBvH[rAg@bCu@nDcAdGi@nDc@tCQ`BETcAlI_@pDYnCa@hFSfCOlCEn@GfAK~AI~AOdDMvDCdAKhFEtBCvC?@CjD?bG@`DBzCBpDLpI@J@r@DbBDfBVlLD~AbBnt@`@dQHnDX|MRpIJxFBhADbC@rABzB@fB?pB?hB?|AApAEbDAv@GzBEpAGxACr@G|@OjCIdAQpBKhAC\\[jCOrAWdBMz@[hBO~@SdA]`BOp@]~AU`Au@|Cg@hBW`AwA|EwCbKW~@Od@WbAQt@c@fBSx@UlAw@zDiAbGe@fCc@zB]pBk@|Cm@pDm@nDo@zDW`B]tBg@fDYlBmBdNi@dEk@nEi@lEIx@[hCWtBUxBQ`BOvAc@dEI~@I~@o@lIEr@Gt@OjBKtAIx@SxAQlASpA_@nBi@dC]tAQj@Oj@a@nAy@xBk@`BaAxCc@vAg@zAqAzEq@lCa@fB[rAg@fCi@`Du@`FQ|ASfBU`CQvBM`CItBIrBEfCCnC?d@?t@?j@?F@t@@l@B|AFdCD~@FjAJ`BThCVjCHh@Hp@Jr@Fd@^dCd@dCh@`Cz@hD~@zC^bABHLb@h@tAj@vAv@fBv@|Ad@~@~@bBxA|BdAzAv@`A\\d@dAnA`AbAp@p@dE~CzH|F`Av@`Az@d@`@b@f@LLZ^r@~@j@~@PXXj@`@x@@@d@jA`@lA^rA\\vATlADVDRBPJr@TbCJfBFdBBr@?f@@d@FrG?\\AjDGrDAfACz@E`BOzDOhCWlDCZC\\WjCa@xDa@lDG^G^WzAAFCLe@vCs@lDi@`Cw@dDi@tBGVGXAD]rAWfA{@nDeAvEWtAi@vCETGTCLo@lECJQvAQtACTCVCLCRYrCMpACREd@KdAIdACVAPAHEp@OhBMdBMlBGhAEf@CZAXK|AEh@Gz@KnBIjAWbEQrDEv@MxBi@~JQ`CEj@YhDK`AM`AWdBg@jCWdA[lA?@a@lAa@hAQd@?@Sf@o@zAYh@ABU`@MRYf@c@p@GFoAdBs@|@MPYZY\\UVWZYZOPyCjDeBrBQRKJQRIJwBdCcBtBcApAmApBe@x@Wf@Ub@[t@g@hAm@dBa@lAQl@Qn@U|@WhA]jBQ|@UzAQrAUzBM`BK~AOxD"},"start_location":{"lat":47.0345287,"lng":9.4657281},"travel_mode":"DRIVING"},{"distance":{"text":"0.6 km","value":582},"duration":{"text":"1 min","value":36},"end_location":{"lat":47.201286,"lng":8.7955911},"html_instructions":"Take exit <b>40</b> toward <b>Pfäffikon</b>/<wbr/><b>Rapperswil</b>","maneuver":"ramp-right","polyline":{"points":"o|a_Hakvt@MfBC`A?v@ArA?F?R?^?r@Ap@A`AAt@At@Ah@AZA\\AFIxAm@`GIdAA`@Al@?r@@P@f@?BFfAJtA"},"start_location":{"lat":47.2008792,"lng":8.8032059},"travel_mode":"DRIVING"},{"distance":{"text":"79 m","value":79},"duration":{"text":"1 min","value":18},"end_location":{"lat":47.2016822,"lng":8.7949307},"html_instructions":"Slight <b>right</b> onto the ramp to <b>Pfäffikon</b>/<wbr/><b>Altendorf</b>","maneuver":"ramp-right","polyline":{"points":"a_b_Hm{tt@Av@AHCJAH?@GNEHEDGBG@QBM?"},"start_location":{"lat":47.201286,"lng":8.7955911},"travel_mode":"DRIVING"},{"distance":{"text":"23 m","value":23},"duration":{"text":"1 min","value":6},"end_location":{"lat":47.2018899,"lng":8.794956899999999},"html_instructions":"Take the ramp to <b>Churerstrasse</b>/<wbr/><b>Route 3</b>","polyline":{"points":"oab_Hiwtt@i@E"},"start_location":{"lat":47.2016822,"lng":8.7949307},"travel_mode":"DRIVING"},{"distance":{"text":"0.3 km","value":332},"duration":{"text":"1 min","value":57},"end_location":{"lat":47.2021204,"lng":8.790706},"html_instructions":"Turn <b>left</b> onto <b>Churerstrasse</b>/<wbr/><b>Route 3</b>","maneuver":"turn-left","polyline":{"points":"ybb_Howtt@MAARAVKbDBXEr@CjBAf@?B?P?F?r@@jEB|@EXGj@"},"start_location":{"lat":47.2018899,"lng":8.794956899999999},"travel_mode":"DRIVING"},{"distance":{"text":"0.1 km","value":133},"duration":{"text":"1 min","value":20},"end_location":{"lat":47.2020007,"lng":8.7890894},"html_instructions":"At the roundabout, take the <b>2nd</b> exit onto <b>Churerstrasse</b>/<wbr/><b>Route 3</b>/<wbr/><b>Route 8</b> heading to <b>Zürich</b>/<wbr/><b>Pfäffikon</b>","maneuver":"roundabout-right","polyline":{"points":"gdb_H}|st@A@A??@A?A@?@A??@?@A??@?@?@A??@?@?@?@?@@@?@?@?@@??@?@@??@?@@??@@?@?@@@?H`@BT@T?R@`@?B?^?V@^@r@"},"start_location":{"lat":47.2021204,"lng":8.790706},"travel_mode":"DRIVING"},{"distance":{"text":"0.2 km","value":158},"duration":{"text":"1 min","value":18},"end_location":{"lat":47.2017288,"lng":8.7882608},"html_instructions":"Take the exit toward <b>Alpamare</b>/<wbr/><b>Kultur Zentrum</b>","maneuver":"ramp-right","polyline":{"points":"ocb_Hyrst@ERCDCDIBKFI@C@C@E@ABEDCDCFCHAH?D?F?H@H@F@FBFBDBBBBDBB@DBD?D?\\AZCZE"},"start_location":{"lat":47.2020007,"lng":8.7890894},"travel_mode":"DRIVING"},{"distance":{"text":"64 m","value":64},"duration":{"text":"1 min","value":6},"end_location":{"lat":47.2011524,"lng":8.7883201},"html_instructions":"Continue onto <b>Schützenstrasse</b>","polyline":{"points":"yab_Hsmst@vAIZA"},"start_location":{"lat":47.2017288,"lng":8.7882608},"travel_mode":"DRIVING"},{"distance":{"text":"0.5 km","value":455},"duration":{"text":"1 min","value":53},"end_location":{"lat":47.2001546,"lng":8.7936471},"html_instructions":"Turn <b>left</b> onto <b>Gwattstrasse</b>","maneuver":"turn-left","polyline":{"points":"e~a_H_nst@H?JCLIFIDIFU@M@Q@S@Q?G?GBc@@c@?Q?O@SBWDWFUFQ@CDMVc@JOX]@AT[LYHSDa@@[?I?CAg@?c@I{BEmB?SAMAOAIA]AY?S@K"},"start_location":{"lat":47.2011524,"lng":8.7883201},"travel_mode":"DRIVING"},{"distance":{"text":"23 m","value":23},"duration":{"text":"1 min","value":3},"end_location":{"lat":47.2000019,"lng":8.7938418},"html_instructions":"Turn <b>right</b> to stay on <b>Gwattstrasse</b>","maneuver":"turn-right","polyline":{"points":"}wa_Hiott@BGFIPS"},"start_location":{"lat":47.2001546,"lng":8.7936471},"travel_mode":"DRIVING"},{"distance":{"text":"0.3 km","value":289},"duration":{"text":"1 min","value":34},"end_location":{"lat":47.19954300000001,"lng":8.7972133},"html_instructions":"Continue straight onto <b>Talstrasse</b>","maneuver":"straight","polyline":{"points":"_wa_Hoptt@JKLKFG^_@FIDCJOFIBGDMD[@ICUQmACYAOAUByI"},"start_location":{"lat":47.2000019,"lng":8.7938418},"travel_mode":"DRIVING"},{"distance":{"text":"0.1 km","value":97},"duration":{"text":"1 min","value":20},"end_location":{"lat":47.2001891,"lng":8.797787099999999},"html_instructions":"Turn <b>left</b> to stay on <b>Talstrasse</b><div style=\"font-size:0.9em\">Restricted usage road</div><div style=\"font-size:0.9em\">Destination will be on the right</div>","maneuver":"turn-left","polyline":{"points":"cta_Hqeut@_BUIGA?KQES?C?EAOAU"},"start_location":{"lat":47.19954300000001,"lng":8.7972133},"travel_mode":"DRIVING"}],"traffic_speed_entry":[],"via_waypoint":[]}]}}} {
+  "service": "expense-tracker"
+}
+2025-08-13 07:38:44 [HTTP]: GET /api/v1/expenses/689c24e428442f6b1467aa0a [32m200[0m 6.614ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:38:44 [HTTP]: GET /api/v1/expenses/689c24e428442f6b1467aa0a [32m304[0m 6.089ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:38:50 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m200[0m 8.030ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:38:50 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 13.408ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:38:50 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m200[0m 15.193ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:38:50 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 8.356ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:38:54 [HTTP]: GET /api/v1/categories [32m304[0m 8.781ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:38:54 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m200[0m 12.233ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:38:54 [HTTP]: GET /api/v1/categories [32m304[0m 7.452ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:38:54 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 11.358ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:38:54 [HTTP]: GET /api/v1/categories [32m304[0m 6.415ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:15 [HTTP]: GET /api/v1/expenses/689c24e428442f6b1467aa0a [32m304[0m 6.114ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:15 [HTTP]: GET /api/v1/expenses/689c24e428442f6b1467aa0a [32m304[0m 7.112ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:21 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 12.102ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:21 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 10.508ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:21 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 11.856ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:21 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 8.942ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:29 [HTTP]: GET /api/v1/categories [32m304[0m 9.397ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:29 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 11.441ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:29 [HTTP]: GET /api/v1/categories [32m304[0m 6.802ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:29 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 10.528ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:29 [HTTP]: GET /api/v1/categories [32m304[0m 6.665ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:33 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 19.245ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:33 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 17.214ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:33 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 16.398ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:33 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 9.760ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:35 [HTTP]: GET /api/v1/categories [32m304[0m 7.089ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:35 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 9.651ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:35 [HTTP]: GET /api/v1/categories [32m304[0m 7.132ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:35 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 11.595ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:35 [HTTP]: GET /api/v1/categories [32m304[0m 6.925ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:40 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:40 [HTTP]: GET /api/v1/settings/key/costPerKilometer [33m404[0m 4.773ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:40 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 7.296ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:40 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/expense-app-new/marcel-expense-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:40 [HTTP]: GET /api/v1/settings/key/costPerKilometer [33m404[0m 5.075ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:40 [HTTP]: GET /api/v1/categories?isActive=true [32m304[0m 5.157ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:56 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 22.108ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:56 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 15.546ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:56 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 15.343ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:39:56 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 7.795ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:40:17 [HTTP]: GET /api/v1/categories [32m304[0m 8.763ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:40:17 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 11.423ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:40:17 [HTTP]: GET /api/v1/categories [32m304[0m 7.104ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:40:17 [HTTP]: GET /api/v1/expenses?page=1&limit=10&sort=-createdAt [32m304[0m 11.423ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:40:17 [HTTP]: GET /api/v1/categories [32m304[0m 7.108ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:40:57 [HTTP]: GET /api/v1/expenses/689c23b528442f6b1467a9af [32m304[0m 5.922ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:40:57 [HTTP]: GET /api/v1/expenses/689c23b528442f6b1467a9af [32m304[0m 7.637ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:41:15 [HTTP]: GET /api/v1/settings [32m304[0m 5.703ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:41:15 [HTTP]: GET /api/v1/expenses/689c23b528442f6b1467a9af [32m304[0m 9.410ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:41:15 [HTTP]: GET /api/v1/settings [32m304[0m 5.118ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:41:15 [HTTP]: GET /api/v1/expenses/689c23b528442f6b1467a9af [32m304[0m 7.970ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:42:47 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 7.704ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:42:47 [HTTP]: GET /api/v1/expenses?startDate=2025-07-31T22%3A00%3A00.000Z&endDate=2025-08-30T22%3A00%3A00.000Z&limit=50&sort=-journeyDate [32m304[0m 10.169ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:42:47 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 10.542ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:42:47 [HTTP]: GET /api/v1/expenses?limit=3&sort=-journeyDate [32m304[0m 7.704ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:42:58 [HTTP]: GET /api/v1/auth/logout [32m304[0m 2.211ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:42:58 [HTTP]: GET /api/v1/settings [33m401[0m 0.166ms - {
+  "service": "expense-tracker"
+}
+2025-08-13 07:42:58 [HTTP]: GET /api/v1/settings [33m401[0m 0.144ms - {
+  "service": "expense-tracker"
+}
