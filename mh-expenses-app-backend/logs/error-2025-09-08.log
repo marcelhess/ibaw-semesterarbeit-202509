@@ -1,0 +1,105 @@
+2025-09-08 16:34:31 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/mh-expenses-app-final/mh-expenses-app-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-08 16:34:31 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/mh-expenses-app-final/mh-expenses-app-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-08 16:35:35 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Place autocomplete error: ZERO_RESULTS",
+  "path": "/api/v1/maps/places/autocomplete?input=Z%C3%BCrioch",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Place autocomplete error: ZERO_RESULTS\n    at getPlacePredictions (file:///C:/Users/Marcel%20Hess/Dev/MT/mh-expenses-app-final/mh-expenses-app-backend/src/utils/googleMaps.js:28:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async file:///C:/Users/Marcel%20Hess/Dev/MT/mh-expenses-app-final/mh-expenses-app-backend/src/controllers/maps.js:24:23",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-08 16:37:00 [ERROR]: Error enhancing note with Gemini AI: [GoogleGenerativeAI Error]: Error fetching from https://generativelanguage.googleapis.com/v1/models/gemini-1.5-pro:generateContent: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{"@type":"type.googleapis.com/google.rpc.QuotaFailure","violations":[{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count","quotaId":"GenerateContentInputTokensPerModelPerMinute-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerMinutePerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}},{"quotaMetric":"generativelanguage.googleapis.com/generate_content_free_tier_requests","quotaId":"GenerateRequestsPerDayPerProjectPerModel-FreeTier","quotaDimensions":{"location":"global","model":"gemini-1.5-pro"}}]},{"@type":"type.googleapis.com/google.rpc.Help","links":[{"description":"Learn more about Gemini API quotas","url":"https://ai.google.dev/gemini-api/docs/rate-limits"}]},{"@type":"type.googleapis.com/google.rpc.RetryInfo","retryDelay":"59s"}] {
+  "service": "expense-tracker",
+  "originalNote": "Client visit and lunch in Zurich",
+  "error": "Error: [429 Too Many Requests] You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. [{\"@type\":\"type.googleapis.com/google.rpc.QuotaFailure\",\"violations\":[{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_input_token_count\",\"quotaId\":\"GenerateContentInputTokensPerModelPerMinute-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerMinutePerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}},{\"quotaMetric\":\"generativelanguage.googleapis.com/generate_content_free_tier_requests\",\"quotaId\":\"GenerateRequestsPerDayPerProjectPerModel-FreeTier\",\"quotaDimensions\":{\"location\":\"global\",\"model\":\"gemini-1.5-pro\"}}]},{\"@type\":\"type.googleapis.com/google.rpc.Help\",\"links\":[{\"description\":\"Learn more about Gemini API quotas\",\"url\":\"https://ai.google.dev/gemini-api/docs/rate-limits\"}]},{\"@type\":\"type.googleapis.com/google.rpc.RetryInfo\",\"retryDelay\":\"59s\"}]\n    at makeRequest (file:///C:/Users/Marcel%20Hess/Dev/MT/mh-expenses-app-final/mh-expenses-app-backend/node_modules/@google/generative-ai/dist/index.mjs:210:19)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async generateContent (file:///C:/Users/Marcel%20Hess/Dev/MT/mh-expenses-app-final/mh-expenses-app-backend/node_modules/@google/generative-ai/dist/index.mjs:534:22)\n    at async enhanceExpenseNotes (file:///C:/Users/Marcel%20Hess/Dev/MT/mh-expenses-app-final/mh-expenses-app-backend/src/controllers/expense.controller.js:43:20)\n    at async file:///C:/Users/Marcel%20Hess/Dev/MT/mh-expenses-app-final/mh-expenses-app-backend/src/controllers/expense.controller.js:122:31"
+}
+2025-09-08 17:51:32 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/mh-expenses-app-final/mh-expenses-app-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-08 17:51:32 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of cateringAllowance",
+  "path": "/api/v1/settings/key/cateringAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of cateringAllowance\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/mh-expenses-app-final/mh-expenses-app-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-08 17:51:32 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of accommodationAllowance",
+  "path": "/api/v1/settings/key/accommodationAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of accommodationAllowance\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/mh-expenses-app-final/mh-expenses-app-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-08 17:51:32 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/mh-expenses-app-final/mh-expenses-app-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-08 17:51:32 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of cateringAllowance",
+  "path": "/api/v1/settings/key/cateringAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of cateringAllowance\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/mh-expenses-app-final/mh-expenses-app-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-08 17:51:32 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of accommodationAllowance",
+  "path": "/api/v1/settings/key/accommodationAllowance",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of accommodationAllowance\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/mh-expenses-app-final/mh-expenses-app-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
+2025-09-08 17:52:15 [ERROR]: Error encountered {
+  "errorName": "Error",
+  "errorMessage": "Setting not found with key of costPerKilometer",
+  "path": "/api/v1/settings/key/costPerKilometer",
+  "method": "GET",
+  "ip": "::1",
+  "stack": "Error: Setting not found with key of costPerKilometer\n    at file:///C:/Users/Marcel%20Hess/Dev/MT/mh-expenses-app-final/mh-expenses-app-backend/src/controllers/settings.js:136:7\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "body": "(no request body)",
+  "service": "expense-tracker"
+}
